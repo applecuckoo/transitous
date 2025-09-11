@@ -1,0 +1,210 @@
+{
+    "maintainers": [
+        {
+            "name": "applecuckoo",
+            "github": "applecuckoo"
+        }
+    ],
+    "sources": [
+        {
+            "name": "Transport-for-New-South-Wales-flex",
+            "type": "http",
+            "spec": "gtfs-flex",
+            "url": "https://opendata.transport.nsw.gov.au/data/dataset/a5ecd906-ce73-484c-8cea-fa6fecfe368e/resource/e25092cc-67a1-469c-b57a-20793c259486/download/ondemand_gtfsflex.zip",
+            "license": {
+                "spdx_identifier": "CC-BY-4.0"
+            }
+        },
+        {
+            "name": "Transport-for-New-South-Wales-metro",
+            "type": "http",
+            "spec": "gtfs",
+            "url": "https://api.transport.nsw.gov.au/v2/gtfs/schedule/metro",
+            "license": {
+                "spdx_identifier": "CC-BY-4.0"
+            },
+            "http-options": {
+                "headers": {
+                    "Authorization": "apikey eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiJPRE5PRmoyZ3lXZEkxVzNfcXdTYVBqUUVnRldLMG9IV0lrS2VvZTdvUzhjIiwiaWF0IjoxNzU0MTY3MzQ4fQ.SEms0C7NpuZFHIz2mwisET8VzDrHqKGYVKt2rqGpkMU"
+                }
+            }
+        },
+        {
+            "name": "Transport-for-New-South-Wales-metro",
+            "type": "url",
+            "spec": "gtfs-rt",
+            "url": "https://api.transport.nsw.gov.au/v2/gtfs/vehiclepos/metro",
+            "license": {
+                "spdx_identifier": "CC-BY-4.0"
+            },
+            "headers": {
+                "Authorization": "apikey eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiJPRE5PRmoyZ3lXZEkxVzNfcXdTYVBqUUVnRldLMG9IV0lrS2VvZTdvUzhjIiwiaWF0IjoxNzU0MTY3MzQ4fQ.SEms0C7NpuZFHIz2mwisET8VzDrHqKGYVKt2rqGpkMU"
+            }
+        },
+        {
+            "name": "Transport-for-New-South-Wales-metro",
+            "type": "url",
+            "spec": "gtfs-rt",
+            "url": "https://api.transport.nsw.gov.au/v2/gtfs/realtime/metro",
+            "license": {
+                "spdx_identifier": "CC-BY-4.0"
+            },
+            "headers": {
+                "Authorization": "apikey eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiJPRE5PRmoyZ3lXZEkxVzNfcXdTYVBqUUVnRldLMG9IV0lrS2VvZTdvUzhjIiwiaWF0IjoxNzU0MTY3MzQ4fQ.SEms0C7NpuZFHIz2mwisET8VzDrHqKGYVKt2rqGpkMU"
+            }
+        },
+        {
+            "name": "Transport-for-New-South-Wales-metro",
+            "type": "url",
+            "spec": "gtfs-rt",
+            "url": "https://api.transport.nsw.gov.au/v2/gtfs/alerts/metro",
+            "license": {
+                "spdx_identifier": "CC-BY-4.0"
+            },
+            "headers": {
+                "Authorization": "apikey eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiJPRE5PRmoyZ3lXZEkxVzNfcXdTYVBqUUVnRldLMG9IV0lrS2VvZTdvUzhjIiwiaWF0IjoxNzU0MTY3MzQ4fQ.SEms0C7NpuZFHIz2mwisET8VzDrHqKGYVKt2rqGpkMU"
+            }
+        },
+        {
+            "name": "Transport-for-New-South-Wales-sydney-trains",
+            "type": "http",
+            "spec": "gtfs",
+            "url": "https://api.transport.nsw.gov.au/v1/gtfs/schedule/sydneytrains",
+            "http-options": {
+                "headers": {
+                    "Authorization": "apikey eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiJPRE5PRmoyZ3lXZEkxVzNfcXdTYVBqUUVnRldLMG9IV0lrS2VvZTdvUzhjIiwiaWF0IjoxNzU0MTY3MzQ4fQ.SEms0C7NpuZFHIz2mwisET8VzDrHqKGYVKt2rqGpkMU"
+                }
+            }
+        },
+        {
+            "name": "Transport-for-New-South-Wales-sydney-trains",
+            "type": "url",
+            "spec": "gtfs-rt",
+            "url": "https://api.transport.nsw.gov.au/v2/gtfs/vehiclepos/sydneytrains",
+            "license": {
+                "spdx_identifier": "CC-BY-4.0"
+            },
+            "headers": {
+                "Authorization": "apikey eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiJPRE5PRmoyZ3lXZEkxVzNfcXdTYVBqUUVnRldLMG9IV0lrS2VvZTdvUzhjIiwiaWF0IjoxNzU0MTY3MzQ4fQ.SEms0C7NpuZFHIz2mwisET8VzDrHqKGYVKt2rqGpkMU"
+            }
+        },
+        {
+            "name": "Transport-for-New-South-Wales-sydney-trains",
+            "type": "url",
+            "spec": "gtfs-rt",
+            "url": "https://api.transport.nsw.gov.au/v2/gtfs/realtime/sydneytrains",
+            "license": {
+                "spdx_identifier": "CC-BY-4.0"
+            },
+            "headers": {
+                "Authorization": "apikey eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiJPRE5PRmoyZ3lXZEkxVzNfcXdTYVBqUUVnRldLMG9IV0lrS2VvZTdvUzhjIiwiaWF0IjoxNzU0MTY3MzQ4fQ.SEms0C7NpuZFHIz2mwisET8VzDrHqKGYVKt2rqGpkMU"
+            }
+        },
+        {
+            "name": "Transport-for-New-South-Wales-sydney-trains",
+            "type": "url",
+            "spec": "gtfs-rt",
+            "url": "https://api.transport.nsw.gov.au/v2/gtfs/alerts/sydneytrains",
+            "license": {
+                "spdx_identifier": "CC-BY-4.0"
+            },
+            "headers": {
+                "Authorization": "apikey eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiJPRE5PRmoyZ3lXZEkxVzNfcXdTYVBqUUVnRldLMG9IV0lrS2VvZTdvUzhjIiwiaWF0IjoxNzU0MTY3MzQ4fQ.SEms0C7NpuZFHIz2mwisET8VzDrHqKGYVKt2rqGpkMU"
+            }
+        },
+        {
+            "name": "Transport-for-New-South-Wales-nsw-trains",
+            "type": "http",
+            "spec": "gtfs",
+            "url": "https://api.transport.nsw.gov.au/v1/gtfs/schedule/nswtrains",
+            "http-options": {
+                "headers": {
+                    "Authorization": "apikey eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiJPRE5PRmoyZ3lXZEkxVzNfcXdTYVBqUUVnRldLMG9IV0lrS2VvZTdvUzhjIiwiaWF0IjoxNzU0MTY3MzQ4fQ.SEms0C7NpuZFHIz2mwisET8VzDrHqKGYVKt2rqGpkMU"
+                }
+            }
+        },
+        {
+            "name": "Transport-for-New-South-Wales-nsw-trains",
+            "type": "url",
+            "spec": "gtfs-rt",
+            "url": "https://api.transport.nsw.gov.au/v1/gtfs/vehiclepos/nswtrains",
+            "license": {
+                "spdx_identifier": "CC-BY-4.0"
+            },
+            "headers": {
+                "Authorization": "apikey eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiJPRE5PRmoyZ3lXZEkxVzNfcXdTYVBqUUVnRldLMG9IV0lrS2VvZTdvUzhjIiwiaWF0IjoxNzU0MTY3MzQ4fQ.SEms0C7NpuZFHIz2mwisET8VzDrHqKGYVKt2rqGpkMU"
+            }
+        },
+        {
+            "name": "Transport-for-New-South-Wales-nsw-trains",
+            "type": "url",
+            "spec": "gtfs-rt",
+            "url": "https://api.transport.nsw.gov.au/v1/gtfs/realtime/nswtrains",
+            "license": {
+                "spdx_identifier": "CC-BY-4.0"
+            },
+            "headers": {
+                "Authorization": "apikey eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiJPRE5PRmoyZ3lXZEkxVzNfcXdTYVBqUUVnRldLMG9IV0lrS2VvZTdvUzhjIiwiaWF0IjoxNzU0MTY3MzQ4fQ.SEms0C7NpuZFHIz2mwisET8VzDrHqKGYVKt2rqGpkMU"
+            }
+        },
+        {
+            "name": "Transport-for-New-South-Wales-nsw-trains",
+            "type": "url",
+            "spec": "gtfs-rt",
+            "url": "https://api.transport.nsw.gov.au/v2/gtfs/alerts/nswtrains",
+            "license": {
+                "spdx_identifier": "CC-BY-4.0"
+            },
+            "headers": {
+                "Authorization": "apikey eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiJPRE5PRmoyZ3lXZEkxVzNfcXdTYVBqUUVnRldLMG9IV0lrS2VvZTdvUzhjIiwiaWF0IjoxNzU0MTY3MzQ4fQ.SEms0C7NpuZFHIz2mwisET8VzDrHqKGYVKt2rqGpkMU"
+            }
+        },
+        {
+            "name": "Transport-for-New-South-Wales-sydney-ferries",
+            "type": "http",
+            "spec": "gtfs",
+            "url": "https://api.transport.nsw.gov.au/v1/gtfs/schedule/ferries/sydneyferries",
+            "http-options": {
+                "headers": {
+                    "Authorization": "apikey eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiJPRE5PRmoyZ3lXZEkxVzNfcXdTYVBqUUVnRldLMG9IV0lrS2VvZTdvUzhjIiwiaWF0IjoxNzU0MTY3MzQ4fQ.SEms0C7NpuZFHIz2mwisET8VzDrHqKGYVKt2rqGpkMU"
+                }
+            }
+        },
+        {
+            "name": "Transport-for-New-South-Wales-sydney-ferries",
+            "type": "url",
+            "spec": "gtfs-rt",
+            "url": "https://api.transport.nsw.gov.au/v1/gtfs/vehiclepos/ferries/sydneyferries",
+            "license": {
+                "spdx_identifier": "CC-BY-4.0"
+            },
+            "headers": {
+                "Authorization": "apikey eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiJPRE5PRmoyZ3lXZEkxVzNfcXdTYVBqUUVnRldLMG9IV0lrS2VvZTdvUzhjIiwiaWF0IjoxNzU0MTY3MzQ4fQ.SEms0C7NpuZFHIz2mwisET8VzDrHqKGYVKt2rqGpkMU"
+            }
+        },
+        {
+            "name": "Transport-for-New-South-Wales-sydney-ferries",
+            "type": "url",
+            "spec": "gtfs-rt",
+            "url": "https://api.transport.nsw.gov.au/v1/gtfs/realtime/ferries/sydneyferries",
+            "license": {
+                "spdx_identifier": "CC-BY-4.0"
+            },
+            "headers": {
+                "Authorization": "apikey eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiJPRE5PRmoyZ3lXZEkxVzNfcXdTYVBqUUVnRldLMG9IV0lrS2VvZTdvUzhjIiwiaWF0IjoxNzU0MTY3MzQ4fQ.SEms0C7NpuZFHIz2mwisET8VzDrHqKGYVKt2rqGpkMU"
+            }
+        },
+        {
+            "name": "Transport-for-New-South-Wales-sydney-ferries",
+            "type": "url",
+            "spec": "gtfs-rt",
+            "url": "https://api.transport.nsw.gov.au/v2/gtfs/alerts/ferries",
+            "license": {
+                "spdx_identifier": "CC-BY-4.0"
+            },
+            "headers": {
+                "Authorization": "apikey eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiJPRE5PRmoyZ3lXZEkxVzNfcXdTYVBqUUVnRldLMG9IV0lrS2VvZTdvUzhjIiwiaWF0IjoxNzU0MTY3MzQ4fQ.SEms0C7NpuZFHIz2mwisET8VzDrHqKGYVKt2rqGpkMU"
+            }
+        }
+    ]
+}
