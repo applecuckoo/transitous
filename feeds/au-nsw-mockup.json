@@ -70,6 +70,9 @@
             "type": "http",
             "spec": "gtfs",
             "url": "https://api.transport.nsw.gov.au/v1/gtfs/schedule/sydneytrains",
+            "license": {
+                "spdx_identifier": "CC-BY-4.0"
+            },
             "http-options": {
                 "headers": {
                     "Authorization": "apikey eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiJPRE5PRmoyZ3lXZEkxVzNfcXdTYVBqUUVnRldLMG9IV0lrS2VvZTdvUzhjIiwiaWF0IjoxNzU0MTY3MzQ4fQ.SEms0C7NpuZFHIz2mwisET8VzDrHqKGYVKt2rqGpkMU"
@@ -117,6 +120,9 @@
             "type": "http",
             "spec": "gtfs",
             "url": "https://api.transport.nsw.gov.au/v1/gtfs/schedule/nswtrains",
+            "license": {
+                "spdx_identifier": "CC-BY-4.0"
+            },
             "http-options": {
                 "headers": {
                     "Authorization": "apikey eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiJPRE5PRmoyZ3lXZEkxVzNfcXdTYVBqUUVnRldLMG9IV0lrS2VvZTdvUzhjIiwiaWF0IjoxNzU0MTY3MzQ4fQ.SEms0C7NpuZFHIz2mwisET8VzDrHqKGYVKt2rqGpkMU"
@@ -164,6 +170,9 @@
             "type": "http",
             "spec": "gtfs",
             "url": "https://api.transport.nsw.gov.au/v1/gtfs/schedule/ferries/sydneyferries",
+            "license": {
+                "spdx_identifier": "CC-BY-4.0"
+            },
             "http-options": {
                 "headers": {
                     "Authorization": "apikey eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiJPRE5PRmoyZ3lXZEkxVzNfcXdTYVBqUUVnRldLMG9IV0lrS2VvZTdvUzhjIiwiaWF0IjoxNzU0MTY3MzQ4fQ.SEms0C7NpuZFHIz2mwisET8VzDrHqKGYVKt2rqGpkMU"
@@ -199,6 +208,100 @@
             "type": "url",
             "spec": "gtfs-rt",
             "url": "https://api.transport.nsw.gov.au/v2/gtfs/alerts/ferries",
+            "license": {
+                "spdx_identifier": "CC-BY-4.0"
+            },
+            "headers": {
+                "Authorization": "apikey eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiJPRE5PRmoyZ3lXZEkxVzNfcXdTYVBqUUVnRldLMG9IV0lrS2VvZTdvUzhjIiwiaWF0IjoxNzU0MTY3MzQ4fQ.SEms0C7NpuZFHIz2mwisET8VzDrHqKGYVKt2rqGpkMU"
+            }
+        },
+        {
+            "name": "Transport-for-New-South-Wales-mff",
+            "type": "http",
+            "spec": "gtfs",
+            "url": "https://api.transport.nsw.gov.au/v1/gtfs/schedule/ferries/MFF",
+            "http-options": {
+                "headers": {
+                    "Authorization": "apikey eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiJPRE5PRmoyZ3lXZEkxVzNfcXdTYVBqUUVnRldLMG9IV0lrS2VvZTdvUzhjIiwiaWF0IjoxNzU0MTY3MzQ4fQ.SEms0C7NpuZFHIz2mwisET8VzDrHqKGYVKt2rqGpkMU"
+                }
+            }
+        },
+        {
+            "name": "Transport-for-New-South-Wales-mff",
+            "type": "url",
+            "spec": "gtfs-rt",
+            "url": "https://api.transport.nsw.gov.au/v1/gtfs/vehiclepos/ferries/MFF",
+            "license": {
+                "spdx_identifier": "CC-BY-4.0"
+            },
+            "headers": {
+                "Authorization": "apikey eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiJPRE5PRmoyZ3lXZEkxVzNfcXdTYVBqUUVnRldLMG9IV0lrS2VvZTdvUzhjIiwiaWF0IjoxNzU0MTY3MzQ4fQ.SEms0C7NpuZFHIz2mwisET8VzDrHqKGYVKt2rqGpkMU"
+            }
+        },
+        {
+            "name": "Transport-for-New-South-Wales-mff",
+            "type": "url",
+            "spec": "gtfs-rt",
+            "url": "https://api.transport.nsw.gov.au/v1/gtfs/realtime/ferries/MFF",
+            "license": {
+                "spdx_identifier": "CC-BY-4.0"
+            },
+            "headers": {
+                "Authorization": "apikey eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiJPRE5PRmoyZ3lXZEkxVzNfcXdTYVBqUUVnRldLMG9IV0lrS2VvZTdvUzhjIiwiaWF0IjoxNzU0MTY3MzQ4fQ.SEms0C7NpuZFHIz2mwisET8VzDrHqKGYVKt2rqGpkMU"
+            }
+        },
+        {
+            "name": "Transport-for-New-South-Wales-mff",
+            "type": "url",
+            "spec": "gtfs-rt",
+            "url": "https://api.transport.nsw.gov.au/v2/gtfs/alerts/ferries",
+            "license": {
+                "spdx_identifier": "CC-BY-4.0"
+            },
+            "headers": {
+                "Authorization": "apikey eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiJPRE5PRmoyZ3lXZEkxVzNfcXdTYVBqUUVnRldLMG9IV0lrS2VvZTdvUzhjIiwiaWF0IjoxNzU0MTY3MzQ4fQ.SEms0C7NpuZFHIz2mwisET8VzDrHqKGYVKt2rqGpkMU"
+            }
+        },
+        {
+            "name": "Transport-for-New-South-Wales-inner-west-lr",
+            "type": "http",
+            "spec": "gtfs",
+            "url": "https://api.transport.nsw.gov.au/v1/gtfs/schedule/lightrail/innerwest",
+            "http-options": {
+                "headers": {
+                    "Authorization": "apikey eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiJPRE5PRmoyZ3lXZEkxVzNfcXdTYVBqUUVnRldLMG9IV0lrS2VvZTdvUzhjIiwiaWF0IjoxNzU0MTY3MzQ4fQ.SEms0C7NpuZFHIz2mwisET8VzDrHqKGYVKt2rqGpkMU"
+                }
+            }
+        },
+        {
+            "name": "Transport-for-New-South-Wales-inner-west-lr",
+            "type": "url",
+            "spec": "gtfs-rt",
+            "url": "https://api.transport.nsw.gov.au/v1/gtfs/vehiclepos/lightrail",
+            "license": {
+                "spdx_identifier": "CC-BY-4.0"
+            },
+            "headers": {
+                "Authorization": "apikey eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiJPRE5PRmoyZ3lXZEkxVzNfcXdTYVBqUUVnRldLMG9IV0lrS2VvZTdvUzhjIiwiaWF0IjoxNzU0MTY3MzQ4fQ.SEms0C7NpuZFHIz2mwisET8VzDrHqKGYVKt2rqGpkMU"
+            }
+        },
+        {
+            "name": "Transport-for-New-South-Wales-inner-west-lr",
+            "type": "url",
+            "spec": "gtfs-rt",
+            "url": "https://api.transport.nsw.gov.au/v1/gtfs/realtime/lightrail",
+            "license": {
+                "spdx_identifier": "CC-BY-4.0"
+            },
+            "headers": {
+                "Authorization": "apikey eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiJPRE5PRmoyZ3lXZEkxVzNfcXdTYVBqUUVnRldLMG9IV0lrS2VvZTdvUzhjIiwiaWF0IjoxNzU0MTY3MzQ4fQ.SEms0C7NpuZFHIz2mwisET8VzDrHqKGYVKt2rqGpkMU"
+            }
+        },
+        {
+            "name": "Transport-for-New-South-Wales-inner-west-lr",
+            "type": "url",
+            "spec": "gtfs-rt",
+            "url": "https://api.transport.nsw.gov.au/v2/gtfs/alerts/lightrail/",
             "license": {
                 "spdx_identifier": "CC-BY-4.0"
             },
