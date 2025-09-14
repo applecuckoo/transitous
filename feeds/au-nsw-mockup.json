@@ -277,7 +277,7 @@
             "name": "Transport-for-New-South-Wales-inner-west-lr",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://api.transport.nsw.gov.au/v1/gtfs/vehiclepos/lightrail",
+            "url": "https://api.transport.nsw.gov.au/v1/gtfs/vehiclepos/lightrail/innerwest",
             "license": {
                 "spdx_identifier": "CC-BY-4.0"
             },
@@ -289,7 +289,7 @@
             "name": "Transport-for-New-South-Wales-inner-west-lr",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://api.transport.nsw.gov.au/v1/gtfs/realtime/lightrail",
+            "url": "https://api.transport.nsw.gov.au/v1/gtfs/realtime/lightrail/innerwest",
             "license": {
                 "spdx_identifier": "CC-BY-4.0"
             },
@@ -299,9 +299,150 @@
         },
         {
             "name": "Transport-for-New-South-Wales-inner-west-lr",
+            "type": "url",
+            "spec": "gtfs-rt",
+            "url": "https://api.transport.nsw.gov.au/v2/gtfs/alerts/lightrail",
+            "license": {
+                "spdx_identifier": "CC-BY-4.0"
+            },
+            "headers": {
+                "Authorization": "apikey eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiJPRE5PRmoyZ3lXZEkxVzNfcXdTYVBqUUVnRldLMG9IV0lrS2VvZTdvUzhjIiwiaWF0IjoxNzU0MTY3MzQ4fQ.SEms0C7NpuZFHIz2mwisET8VzDrHqKGYVKt2rqGpkMU"
+            }
+        },
+        {
+            "name": "Transport-for-New-South-Wales-cbd-and-southeast-lr",
+            "type": "http",
+            "spec": "gtfs",
+            "url": "https://api.transport.nsw.gov.au/v1/gtfs/schedule/lightrail/cbdandsoutheast",
+            "http-options": {
+                "headers": {
+                    "Authorization": "apikey eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiJPRE5PRmoyZ3lXZEkxVzNfcXdTYVBqUUVnRldLMG9IV0lrS2VvZTdvUzhjIiwiaWF0IjoxNzU0MTY3MzQ4fQ.SEms0C7NpuZFHIz2mwisET8VzDrHqKGYVKt2rqGpkMU"
+                }
+            }
+        },
+        {
+            "name": "Transport-for-New-South-Wales-cbd-and-southeast-lr",
+            "type": "url",
+            "spec": "gtfs-rt",
+            "url": "https://api.transport.nsw.gov.au/v1/gtfs/vehiclepos/lightrail/cbdandsoutheast",
+            "license": {
+                "spdx_identifier": "CC-BY-4.0"
+            },
+            "headers": {
+                "Authorization": "apikey eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiJPRE5PRmoyZ3lXZEkxVzNfcXdTYVBqUUVnRldLMG9IV0lrS2VvZTdvUzhjIiwiaWF0IjoxNzU0MTY3MzQ4fQ.SEms0C7NpuZFHIz2mwisET8VzDrHqKGYVKt2rqGpkMU"
+            }
+        },
+        {
+            "name": "Transport-for-New-South-Wales-cbd-and-southeast-lr",
+            "type": "url",
+            "spec": "gtfs-rt",
+            "url": "https://api.transport.nsw.gov.au/v1/gtfs/realtime/lightrail/cbdandsoutheast",
+            "license": {
+                "spdx_identifier": "CC-BY-4.0"
+            },
+            "headers": {
+                "Authorization": "apikey eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiJPRE5PRmoyZ3lXZEkxVzNfcXdTYVBqUUVnRldLMG9IV0lrS2VvZTdvUzhjIiwiaWF0IjoxNzU0MTY3MzQ4fQ.SEms0C7NpuZFHIz2mwisET8VzDrHqKGYVKt2rqGpkMU"
+            }
+        },
+        {
+            "name": "Transport-for-New-South-Wales-cbd-and-southeast-lr",
             "type": "url",
             "spec": "gtfs-rt",
             "url": "https://api.transport.nsw.gov.au/v2/gtfs/alerts/lightrail/",
+            "license": {
+                "spdx_identifier": "CC-BY-4.0"
+            },
+            "headers": {
+                "Authorization": "apikey eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiJPRE5PRmoyZ3lXZEkxVzNfcXdTYVBqUUVnRldLMG9IV0lrS2VvZTdvUzhjIiwiaWF0IjoxNzU0MTY3MzQ4fQ.SEms0C7NpuZFHIz2mwisET8VzDrHqKGYVKt2rqGpkMU"
+            }
+        },
+        {
+            "name": "Transport-for-New-South-Wales-parramatta-lr",
+            "type": "http",
+            "spec": "gtfs",
+            "url": "https://api.transport.nsw.gov.au/v1/gtfs/schedule/lightrail/parramatta",
+            "http-options": {
+                "headers": {
+                    "Authorization": "apikey eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiJPRE5PRmoyZ3lXZEkxVzNfcXdTYVBqUUVnRldLMG9IV0lrS2VvZTdvUzhjIiwiaWF0IjoxNzU0MTY3MzQ4fQ.SEms0C7NpuZFHIz2mwisET8VzDrHqKGYVKt2rqGpkMU"
+                }
+            }
+        },
+        {
+            "name": "Transport-for-New-South-Wales-parramatta-lr",
+            "type": "url",
+            "spec": "gtfs-rt",
+            "url": "https://api.transport.nsw.gov.au/v1/gtfs/vehiclepos/lightrail/parramatta",
+            "license": {
+                "spdx_identifier": "CC-BY-4.0"
+            },
+            "headers": {
+                "Authorization": "apikey eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiJPRE5PRmoyZ3lXZEkxVzNfcXdTYVBqUUVnRldLMG9IV0lrS2VvZTdvUzhjIiwiaWF0IjoxNzU0MTY3MzQ4fQ.SEms0C7NpuZFHIz2mwisET8VzDrHqKGYVKt2rqGpkMU"
+            }
+        },
+        {
+            "name": "Transport-for-New-South-Wales-parramatta-lr",
+            "type": "url",
+            "spec": "gtfs-rt",
+            "url": "https://api.transport.nsw.gov.au/v1/gtfs/realtime/lightrail/parramatta",
+            "license": {
+                "spdx_identifier": "CC-BY-4.0"
+            },
+            "headers": {
+                "Authorization": "apikey eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiJPRE5PRmoyZ3lXZEkxVzNfcXdTYVBqUUVnRldLMG9IV0lrS2VvZTdvUzhjIiwiaWF0IjoxNzU0MTY3MzQ4fQ.SEms0C7NpuZFHIz2mwisET8VzDrHqKGYVKt2rqGpkMU"
+            }
+        },
+        {
+            "name": "Transport-for-New-South-Wales-parramatta-lr",
+            "type": "url",
+            "spec": "gtfs-rt",
+            "url": "https://api.transport.nsw.gov.au/v2/gtfs/alerts/lightrail",
+            "license": {
+                "spdx_identifier": "CC-BY-4.0"
+            },
+            "headers": {
+                "Authorization": "apikey eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiJPRE5PRmoyZ3lXZEkxVzNfcXdTYVBqUUVnRldLMG9IV0lrS2VvZTdvUzhjIiwiaWF0IjoxNzU0MTY3MzQ4fQ.SEms0C7NpuZFHIz2mwisET8VzDrHqKGYVKt2rqGpkMU"
+            }
+        },
+        {
+            "name": "Transport-for-New-South-Wales-newcastle-lr",
+            "type": "http",
+            "spec": "gtfs",
+            "url": "https://api.transport.nsw.gov.au/v1/gtfs/schedule/lightrail/newcastle",
+            "http-options": {
+                "headers": {
+                    "Authorization": "apikey eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiJPRE5PRmoyZ3lXZEkxVzNfcXdTYVBqUUVnRldLMG9IV0lrS2VvZTdvUzhjIiwiaWF0IjoxNzU0MTY3MzQ4fQ.SEms0C7NpuZFHIz2mwisET8VzDrHqKGYVKt2rqGpkMU"
+                }
+            }
+        },
+        {
+            "name": "Transport-for-New-South-Wales-cbd-and-southeast-lr",
+            "type": "url",
+            "spec": "gtfs-rt",
+            "url": "https://api.transport.nsw.gov.au/v1/gtfs/vehiclepos/lightrail/newcastle",
+            "license": {
+                "spdx_identifier": "CC-BY-4.0"
+            },
+            "headers": {
+                "Authorization": "apikey eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiJPRE5PRmoyZ3lXZEkxVzNfcXdTYVBqUUVnRldLMG9IV0lrS2VvZTdvUzhjIiwiaWF0IjoxNzU0MTY3MzQ4fQ.SEms0C7NpuZFHIz2mwisET8VzDrHqKGYVKt2rqGpkMU"
+            }
+        },
+        {
+            "name": "Transport-for-New-South-Wales-cbd-and-southeast-lr",
+            "type": "url",
+            "spec": "gtfs-rt",
+            "url": "https://api.transport.nsw.gov.au/v1/gtfs/realtime/lightrail/newcastle",
+            "license": {
+                "spdx_identifier": "CC-BY-4.0"
+            },
+            "headers": {
+                "Authorization": "apikey eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiJPRE5PRmoyZ3lXZEkxVzNfcXdTYVBqUUVnRldLMG9IV0lrS2VvZTdvUzhjIiwiaWF0IjoxNzU0MTY3MzQ4fQ.SEms0C7NpuZFHIz2mwisET8VzDrHqKGYVKt2rqGpkMU"
+            }
+        },
+        {
+            "name": "Transport-for-New-South-Wales-cbd-and-southeast-lr",
+            "type": "url",
+            "spec": "gtfs-rt",
+            "url": "https://api.transport.nsw.gov.au/v2/gtfs/alerts/lightrail",
             "license": {
                 "spdx_identifier": "CC-BY-4.0"
             },
