@@ -84,7 +84,7 @@ def data_slupsk_latest_resource(source: HttpSource) -> HttpSource:
 
 def data_tasmania_latest_resource(source: HttpSource) -> HttpSource:
     from bs4 import BeautifulSoup
-    
+
     html = requests.get(source.url).text
 
     soup = BeautifulSoup(html, "lxml")
@@ -120,3 +120,15 @@ def data_metroporto_latest_resource(source: HttpSource) -> HttpSource:
     source.url = gtfs_url
     return source
 
+def data_santiago_latest_resource(source: HttpSource) -> HttpSource:
+    from bs4 import BeautifulSoup
+
+    html = requests.get(source.url).text
+
+    soup = BeautifulSoup(html, "lxml")
+    gtfs_link = soup.find("a", href=lambda x: x and x.endswith(".zip"))["href"]
+
+    base_url = source.url.rsplit("/", 2)[0]
+    source.url = base_url + gtfs_link
+
+    return source

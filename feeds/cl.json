@@ -3,6 +3,10 @@
         {
             "name": "Nedžad Beus",
             "github": "vekejsn"
+        },
+        {
+            "name": "Oliver Hattshire",
+            "github": "Hattshire"
         }
     ],
     "sources": [
@@ -18,9 +22,10 @@
             "url": "https://rt.flix.baguette.pirnet.si/rt.pb"
         },
         {
-            "name": "Red Movilidad",
+            "name": "dtpm",
             "type": "http",
-            "url": "https://www.dtpm.cl/descargas/gtfs/GTFS_20250906.zip"
+            "url": "https://dtpm.cl/index.php/gtfs-vigente",
+            "function": "data_santiago_latest_resource"
         }
     ]
 }
