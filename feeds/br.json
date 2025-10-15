@@ -11,6 +11,10 @@
         {
             "name": "Nedžad Beus",
             "github": "vekejsn"
+        },
+        {
+            "name": "applecuckoo",
+            "github": "applecuckoo"
         }
     ],
     "sources": [
@@ -52,6 +56,36 @@
             "type": "url",
             "spec": "gtfs-rt",
             "url": "https://rt.flix.baguette.pirnet.si/rt.pb"
+        },
+        {
+            "name": "belo-horizonte",
+            "type": "http",
+            "url": "https://s3.amazonaws.com/mobilibus-uploads/gtfs/GTFSBHTRANS.zip",
+            "fix": true,
+            "license": {
+                "url": "https://dados.pbh.gov.br/dataset/gtfs/resource/44705af6-a65e-4e7f-9687-fbc910c71303",
+                "spdx-identifier": "CC-BY-4.0"
+            }
+        },
+        {
+            "name": "belo-horizonte",
+            "type": "url",
+            "spec": "gtfs-rt",
+            "url": "http://realtime4.mobilibus.com/web/4ch6j/trip-updates?accesskey=982a57efd77a9462bf1665696fb25984",
+            "license": {
+                "url": "https://dados.pbh.gov.br/dataset/gtfs-rt/resource/18a91935-2e03-4ca2-b267-3e49697bb7ec",
+                "spdx-identifier": "CC-BY-4.0"
+            }
+        },
+        {
+            "name": "belo-horizonte",
+            "type": "url",
+            "spec": "gtfs-rt",
+            "url": "http://realtime4.mobilibus.com/web/4ch6j/alerts?accesskey=982a57efd77a9462bf1665696fb25984",
+            "license": {
+                "url": "https://dados.pbh.gov.br/dataset/gtfs-rt/resource/ffd1cfa9-af19-4e2c-b850-b3f44c7ae11d",
+                "spdx-identifier": "CC-BY-4.0"
+            }
         }
     ]
 }
