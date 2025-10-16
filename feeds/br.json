@@ -86,6 +86,15 @@
                 "url": "https://dados.pbh.gov.br/dataset/gtfs-rt/resource/ffd1cfa9-af19-4e2c-b850-b3f44c7ae11d",
                 "spdx-identifier": "CC-BY-4.0"
             }
+        },
+        {
+            "name": "fortaleza",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2367",
+            "license": {
+                "url": "https://www.metrofor.ce.gov.br/gtfs/",
+                "spdx-identifier": "CC-BY-4.0"
+            }
         }
     ]
 }
