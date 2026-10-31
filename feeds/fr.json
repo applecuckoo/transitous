@@ -840,10 +840,8 @@
             },
             "x-data-gov-fr-res-id": 39593,
             "managed-by-script": true,
-            "skip": true,
             "x-data-gov-fr-res-title": "GTFS Bus des collines",
-            "x-data-gov-fr-dataset-id": "5b3b3de988ee38708ada1789",
-            "skip-reason": "Feed is expired according to metadata"
+            "x-data-gov-fr-dataset-id": "5b3b3de988ee38708ada1789"
         },
         {
             "name": "reseaux-de-transports-en-commun-de-la-metropole-daix-marseille-provence-et-des-bouches-du-rhone--39594",
@@ -1039,9 +1037,10 @@
             },
             "x-data-gov-fr-res-id": 81432,
             "managed-by-script": true,
-            "skip": false,
+            "skip": true,
             "x-data-gov-fr-res-title": "gtfs-2024.zip",
-            "x-data-gov-fr-dataset-id": "5b4f299cc751df452b86361b"
+            "x-data-gov-fr-dataset-id": "5b4f299cc751df452b86361b",
+            "skip-reason": "Feed is expired according to metadata"
         },
         {
             "name": "gtfs-et-siri-du-reseau-ginko-besancon-lignes-urbaines-et-periurbaines",
@@ -1242,8 +1241,6 @@
             },
             "x-data-gov-fr-res-id": 79559,
             "managed-by-script": true,
-            "skip": true,
-            "skip-reason": "Feed is expired according to metadata",
             "x-data-gov-fr-res-title": "Horaires au format GTFS",
             "x-data-gov-fr-dataset-id": "5bb49085634f4115ddc9293b"
         },
@@ -1258,8 +1255,6 @@
             "spec": "gtfs-rt",
             "x-data-gov-fr-res-id": 81360,
             "managed-by-script": true,
-            "skip": true,
-            "skip-reason": "Feed is expired according to metadata",
             "x-data-gov-fr-res-title": "Horaires temps-réel au format GTFS-RT",
             "x-data-gov-fr-dataset-id": "5bb49085634f4115ddc9293b"
         },
@@ -1274,10 +1269,8 @@
             },
             "x-data-gov-fr-res-id": 81018,
             "managed-by-script": true,
-            "skip": true,
             "x-data-gov-fr-res-title": "Données Théoriques (GTFS Réseau TUL LAVAL)",
-            "x-data-gov-fr-dataset-id": "5bc493d08b4c416c84a69500",
-            "skip-reason": "Feed is expired according to metadata"
+            "x-data-gov-fr-dataset-id": "5bc493d08b4c416c84a69500"
         },
         {
             "name": "lignes-regulieres-de-transports-sillages-en-pays-de-grasse-urbain-et-scolaire--79821",
@@ -1290,10 +1283,8 @@
             },
             "x-data-gov-fr-res-id": 79821,
             "managed-by-script": true,
-            "skip": true,
             "x-data-gov-fr-res-title": "Réseau Scolaire Sillages 2026",
-            "x-data-gov-fr-dataset-id": "5bc59247634f417c808580b3",
-            "skip-reason": "Feed is expired according to metadata"
+            "x-data-gov-fr-dataset-id": "5bc59247634f417c808580b3"
         },
         {
             "name": "lignes-regulieres-de-transports-sillages-en-pays-de-grasse-urbain-et-scolaire--79822",
@@ -1306,10 +1297,8 @@
             },
             "x-data-gov-fr-res-id": 79822,
             "managed-by-script": true,
-            "skip": true,
             "x-data-gov-fr-res-title": "Réseau Urbain Sillages 2026",
-            "x-data-gov-fr-dataset-id": "5bc59247634f417c808580b3",
-            "skip-reason": "Feed is expired according to metadata"
+            "x-data-gov-fr-dataset-id": "5bc59247634f417c808580b3"
         },
         {
             "name": "offre-de-transports-sibra-a-annecy-gtfs",
@@ -1739,10 +1728,8 @@
             },
             "x-data-gov-fr-res-id": 82911,
             "managed-by-script": true,
-            "skip": true,
             "x-data-gov-fr-res-title": "gtfs-production.zip",
-            "x-data-gov-fr-dataset-id": "5c642379634f41657e9b5ea4",
-            "skip-reason": "Feed is expired according to metadata"
+            "x-data-gov-fr-dataset-id": "5c642379634f41657e9b5ea4"
         },
         {
             "name": "offre-de-transport-du-reseau-tango-de-nimes-metropole-gtfs-gtfs-rt",
@@ -1772,9 +1759,7 @@
             "x-data-gov-fr-res-id": 80730,
             "managed-by-script": true,
             "x-data-gov-fr-res-title": "GTFS-RT Mise à jour des Alertes",
-            "x-data-gov-fr-dataset-id": "5c642379634f41657e9b5ea4",
-            "skip": true,
-            "skip-reason": "Feed is expired according to metadata"
+            "x-data-gov-fr-dataset-id": "5c642379634f41657e9b5ea4"
         },
         {
             "name": "offre-de-transport-du-reseau-tango-de-nimes-metropole-gtfs-gtfs-rt",
@@ -1788,9 +1773,7 @@
             "x-data-gov-fr-res-id": 80731,
             "managed-by-script": true,
             "x-data-gov-fr-res-title": "GTFS-RT Mises à jour des trajets en temps réel",
-            "x-data-gov-fr-dataset-id": "5c642379634f41657e9b5ea4",
-            "skip": true,
-            "skip-reason": "Feed is expired according to metadata"
+            "x-data-gov-fr-dataset-id": "5c642379634f41657e9b5ea4"
         },
         {
             "name": "horaires-theoriques-et-temps-reel-gtfs-gtfs-rt-du-reseau-palmbus-cannes-pays-de-lerins",
@@ -1849,6 +1832,22 @@
             "skip": true,
             "x-data-gov-fr-res-title": "Horaires Flixbus Europe",
             "x-data-gov-fr-dataset-id": "5c6ad5248b4c411c3d7ae435"
+        },
+        {
+            "name": "flixbus-horaires-theoriques-du-reseau-europeen-1",
+            "type": "url",
+            "url": "https://www.data.gouv.fr/api/1/datasets/r/017cd03c-5478-42e5-9ff3-60cba9ada1ac",
+            "x-data-gov-fr-res-title": "Horaires en temps réel Flixbus Europe",
+            "license": {
+                "url": "https://transport.data.gouv.fr/datasets/flixbus-horaires-theoriques-du-reseau-europeen-1",
+                "spdx-identifier": "ODbL-1.0"
+            },
+            "x-data-gov-fr-res-id": 84253,
+            "x-data-gov-fr-dataset-id": "5c6ad5248b4c411c3d7ae435",
+            "managed-by-script": true,
+            "spec": "gtfs-rt",
+            "skip": true,
+            "skip-reason": "static feed is skipped"
         },
         {
             "name": "offre-de-transport-du-reseau-libellus-gtfs",
@@ -2310,10 +2309,8 @@
             },
             "x-data-gov-fr-res-id": 82999,
             "managed-by-script": true,
-            "skip": true,
             "x-data-gov-fr-res-title": "Mise à jour 2026",
-            "x-data-gov-fr-dataset-id": "5d14f47a634f4155ae63a796",
-            "skip-reason": "Feed is expired according to metadata"
+            "x-data-gov-fr-dataset-id": "5d14f47a634f4155ae63a796"
         },
         {
             "name": "reseau-de-transport-transcove-de-la-communaute-dagglomeration-ventoux-comtat-venaissin",
@@ -2931,10 +2928,8 @@
             },
             "x-data-gov-fr-res-id": 83126,
             "managed-by-script": true,
-            "skip": true,
             "x-data-gov-fr-res-title": "GTFS",
-            "x-data-gov-fr-dataset-id": "5e9ff4cd897a11100789e5c3",
-            "skip-reason": "Feed is expired according to metadata"
+            "x-data-gov-fr-dataset-id": "5e9ff4cd897a11100789e5c3"
         },
         {
             "name": "horaires-theoriques-du-reseau-tougo",
@@ -3092,8 +3087,6 @@
             },
             "x-data-gov-fr-res-id": 64163,
             "managed-by-script": true,
-            "skip": true,
-            "skip-reason": "Feed is expired according to metadata",
             "x-data-gov-fr-res-title": "GTFS CapBus",
             "x-data-gov-fr-dataset-id": "5f1550566f83946237e2684c"
         },
@@ -3472,7 +3465,7 @@
             "x-data-gov-fr-res-id": 81183,
             "managed-by-script": true,
             "skip": false,
-            "x-data-gov-fr-res-title": "gtfs-carsud-20082026.zip",
+            "x-data-gov-fr-res-title": "gtfs-carsud-26102026V2.zip",
             "x-data-gov-fr-dataset-id": "5fc4bb07daf796b0fc95272a"
         },
         {
@@ -3574,7 +3567,7 @@
             "x-data-gov-fr-res-id": 82555,
             "managed-by-script": true,
             "skip": false,
-            "x-data-gov-fr-res-title": "Réseau_MAT_06102026_au_31122026",
+            "x-data-gov-fr-res-title": "Réseau_MAT_24102026_au_31122026",
             "x-data-gov-fr-dataset-id": "601033a9f8ef84fd317562ae"
         },
         {
@@ -4053,8 +4046,6 @@
             },
             "x-data-gov-fr-res-id": 72361,
             "managed-by-script": true,
-            "skip": true,
-            "skip-reason": "Feed is expired according to metadata",
             "x-data-gov-fr-res-title": "Données théoriques au format GTFS",
             "x-data-gov-fr-dataset-id": "60a60327c7e5bc1ceacd5a95"
         },
@@ -4069,8 +4060,6 @@
             "spec": "gtfs-rt",
             "x-data-gov-fr-res-id": 79745,
             "managed-by-script": true,
-            "skip": true,
-            "skip-reason": "Feed is expired according to metadata",
             "x-data-gov-fr-res-title": "Données en temps réel au format GTFS-RT (TripUpdate)",
             "x-data-gov-fr-dataset-id": "60a60327c7e5bc1ceacd5a95"
         },
@@ -4266,21 +4255,6 @@
             "x-data-gov-fr-dataset-id": "6153ad37bdd43d6e72b0681a"
         },
         {
-            "name": "agence-agglobus--81705",
-            "type": "http",
-            "url": "https://www.data.gouv.fr/api/1/datasets/r/9e9cea88-cdf9-4f3d-ae17-f30c9512d276",
-            "fix": true,
-            "license": {
-                "url": "https://transport.data.gouv.fr/datasets/agence-agglobus",
-                "spdx-identifier": "etalab-2.0"
-            },
-            "x-data-gov-fr-res-id": 81705,
-            "managed-by-script": true,
-            "skip": false,
-            "x-data-gov-fr-res-title": "CACL PERIURBAIN",
-            "x-data-gov-fr-dataset-id": "615c0b5448c0d2789eb0681b"
-        },
-        {
             "name": "agence-agglobus--83304",
             "type": "http",
             "url": "https://www.data.gouv.fr/api/1/datasets/r/12c4aed4-a268-4cb3-8fb5-7625a747cf56",
@@ -4292,7 +4266,7 @@
             "x-data-gov-fr-res-id": 83304,
             "managed-by-script": true,
             "skip": false,
-            "x-data-gov-fr-res-title": "GTFS L7 ET L10",
+            "x-data-gov-fr-res-title": "GTFS L7 ET L8",
             "x-data-gov-fr-dataset-id": "615c0b5448c0d2789eb0681b"
         },
         {
@@ -4308,7 +4282,7 @@
             "managed-by-script": true,
             "skip": true,
             "skip-reason": "malformed agency.txt",
-            "x-data-gov-fr-res-title": "GTFS SEMOP 2026",
+            "x-data-gov-fr-res-title": "GTFS YANABUS 2026",
             "x-data-gov-fr-dataset-id": "615c0b5448c0d2789eb0681b"
         },
         {
@@ -4636,10 +4610,8 @@
             },
             "x-data-gov-fr-res-id": 79014,
             "managed-by-script": true,
-            "skip": true,
             "x-data-gov-fr-res-title": "Horaires temps-réel du réseau Ritmo -Haguenau (GTFS)",
-            "x-data-gov-fr-dataset-id": "619fb0437825b8a16e2bdf44",
-            "skip-reason": "Feed is expired according to metadata"
+            "x-data-gov-fr-dataset-id": "619fb0437825b8a16e2bdf44"
         },
         {
             "name": "horaires-theoriques-et-temps-reel-du-reseau-ritmo-haguenau-gtfs-gtfs-rt",
@@ -4919,54 +4891,6 @@
             "managed-by-script": true,
             "x-data-gov-fr-res-title": "Disponibilité des vélos en libre-service  de Montpellier en temps réel ",
             "x-data-gov-fr-dataset-id": "6253e8fc6ed8eb554148b112"
-        },
-        {
-            "name": "reseau-urbain-ville-de-vitre--83019",
-            "type": "http",
-            "url": "https://www.data.gouv.fr/api/1/datasets/r/c7b620bf-e0c5-4f81-a34b-9c8d02c6e3a4",
-            "fix": true,
-            "license": {
-                "url": "https://transport.data.gouv.fr/datasets/reseau-urbain-ville-de-vitre",
-                "spdx-identifier": "etalab-2.0"
-            },
-            "x-data-gov-fr-res-id": 83019,
-            "managed-by-script": true,
-            "skip": true,
-            "skip-reason": "Missing agency.txt",
-            "x-data-gov-fr-res-title": "fichiers GTFS pour la période été 2025",
-            "x-data-gov-fr-dataset-id": "625561cdf949cea7e22006b7"
-        },
-        {
-            "name": "reseau-urbain-ville-de-vitre--83276",
-            "type": "http",
-            "url": "https://www.data.gouv.fr/api/1/datasets/r/282974b2-bf13-41f2-a0bf-feb0682e594e",
-            "fix": true,
-            "license": {
-                "url": "https://transport.data.gouv.fr/datasets/reseau-urbain-ville-de-vitre",
-                "spdx-identifier": "etalab-2.0"
-            },
-            "x-data-gov-fr-res-id": 83276,
-            "managed-by-script": true,
-            "skip": true,
-            "x-data-gov-fr-res-title": "Réseau urbain Châteaubourg et Vitré à partir de septembre 2025",
-            "x-data-gov-fr-dataset-id": "625561cdf949cea7e22006b7",
-            "skip-reason": "Feed is expired according to metadata"
-        },
-        {
-            "name": "reseau-urbain-ville-de-vitre--83280",
-            "type": "http",
-            "url": "https://www.data.gouv.fr/api/1/datasets/r/bf176d3d-c487-40f9-a823-68279395f2ab",
-            "fix": true,
-            "license": {
-                "url": "https://transport.data.gouv.fr/datasets/reseau-urbain-ville-de-vitre",
-                "spdx-identifier": "etalab-2.0"
-            },
-            "x-data-gov-fr-res-id": 83280,
-            "managed-by-script": true,
-            "skip": true,
-            "x-data-gov-fr-res-title": "Lignes inter-urbaines Vitré Communauté",
-            "x-data-gov-fr-dataset-id": "625561cdf949cea7e22006b7",
-            "skip-reason": "Feed is expired according to metadata"
         },
         {
             "name": "horaires-theoriques-reseau-choletbus",
@@ -5904,10 +5828,8 @@
             },
             "x-data-gov-fr-res-id": 79992,
             "managed-by-script": true,
-            "skip": true,
             "x-data-gov-fr-res-title": "Horaires théoriques du réseau Sarlat'BUS (GTFS)",
-            "x-data-gov-fr-dataset-id": "6373936546eacd272066a9cd",
-            "skip-reason": "Feed is expired according to metadata"
+            "x-data-gov-fr-dataset-id": "6373936546eacd272066a9cd"
         },
         {
             "name": "horaires-theoriques-et-temps-reel-du-reseau-sarlatbus-gtfs-gtfs-rt",
@@ -6200,9 +6122,7 @@
             "x-data-gov-fr-res-id": 82907,
             "managed-by-script": true,
             "x-data-gov-fr-res-title": "Horaires théoriques de la navette de Sel et Vermois (GTFS)",
-            "x-data-gov-fr-dataset-id": "63b4c3d206d317f5caa80dcc",
-            "skip": true,
-            "skip-reason": "Feed is expired according to metadata"
+            "x-data-gov-fr-dataset-id": "63b4c3d206d317f5caa80dcc"
         },
         {
             "name": "offre-de-transport-du-reseau-de-la-communaute-de-communes-des-pays-du-sel-et-du-vermois",
@@ -6216,9 +6136,7 @@
             "x-data-gov-fr-res-id": 82910,
             "managed-by-script": true,
             "x-data-gov-fr-res-title": "Horaires temps réel des lignes du réseau de la Communauté de Communes des Pays du Sel et du Vermois",
-            "x-data-gov-fr-dataset-id": "63b4c3d206d317f5caa80dcc",
-            "skip": true,
-            "skip-reason": "Feed is expired according to metadata"
+            "x-data-gov-fr-dataset-id": "63b4c3d206d317f5caa80dcc"
         },
         {
             "name": "fr-200052264-t0002-0000-1",
@@ -6408,9 +6326,7 @@
             "x-data-gov-fr-res-id": 82413,
             "managed-by-script": true,
             "x-data-gov-fr-res-title": "Horaires théoriques du réseau Transavold (GTFS)",
-            "x-data-gov-fr-dataset-id": "63b4c3d25a09dd67fc9dde9a",
-            "skip": true,
-            "skip-reason": "Feed is expired according to metadata"
+            "x-data-gov-fr-dataset-id": "63b4c3d25a09dd67fc9dde9a"
         },
         {
             "name": "fr-200052264-t0015-0000-1",
@@ -6424,9 +6340,7 @@
             "x-data-gov-fr-res-id": 82595,
             "managed-by-script": true,
             "x-data-gov-fr-res-title": "Horaires temps réel des lignes du réseau Transavold ",
-            "x-data-gov-fr-dataset-id": "63b4c3d25a09dd67fc9dde9a",
-            "skip": true,
-            "skip-reason": "Feed is expired according to metadata"
+            "x-data-gov-fr-dataset-id": "63b4c3d25a09dd67fc9dde9a"
         },
         {
             "name": "offre-de-transport-du-reseau-fluo-grand-est-aube-10",
@@ -6499,10 +6413,8 @@
             },
             "x-data-gov-fr-res-id": 80463,
             "managed-by-script": true,
-            "skip": true,
             "x-data-gov-fr-res-title": "Horaires théoriques du réseau Colibri (Terres Touloises) - GTFS",
-            "x-data-gov-fr-dataset-id": "63b4c3d25c38a3ee979dde9c",
-            "skip-reason": "Feed is expired according to metadata"
+            "x-data-gov-fr-dataset-id": "63b4c3d25c38a3ee979dde9c"
         },
         {
             "name": "fr-200052264-t0027-0000-1",
@@ -6854,9 +6766,7 @@
             "x-data-gov-fr-res-id": 80453,
             "managed-by-script": true,
             "x-data-gov-fr-res-title": "Horaires théoriques du réseau Sylvia (CA de Saint-Dié-des-Vosges) - GTFS",
-            "x-data-gov-fr-dataset-id": "63b4c3d355130e7bb19dde9d",
-            "skip": true,
-            "skip-reason": "Feed is expired according to metadata"
+            "x-data-gov-fr-dataset-id": "63b4c3d355130e7bb19dde9d"
         },
         {
             "name": "fr-200052264-t0016-0000-1",
@@ -6870,9 +6780,7 @@
             "x-data-gov-fr-res-id": 81166,
             "managed-by-script": true,
             "x-data-gov-fr-res-title": "Horaires temps réel des lignes du réseau SYLVIA",
-            "x-data-gov-fr-dataset-id": "63b4c3d355130e7bb19dde9d",
-            "skip": true,
-            "skip-reason": "Feed is expired according to metadata"
+            "x-data-gov-fr-dataset-id": "63b4c3d355130e7bb19dde9d"
         },
         {
             "name": "fr-200052264-t0016-0000-1",
@@ -6886,9 +6794,7 @@
             "x-data-gov-fr-res-id": 81168,
             "managed-by-script": true,
             "x-data-gov-fr-res-title": "Info trafic en temps réel du réseau  SYLVIA",
-            "x-data-gov-fr-dataset-id": "63b4c3d355130e7bb19dde9d",
-            "skip": true,
-            "skip-reason": "Feed is expired according to metadata"
+            "x-data-gov-fr-dataset-id": "63b4c3d355130e7bb19dde9d"
         },
         {
             "name": "offre-de-transport-du-reseau-elsa-petr-selestat-alsace-centrale",
@@ -7269,10 +7175,8 @@
             },
             "x-data-gov-fr-res-id": 80606,
             "managed-by-script": true,
-            "skip": true,
             "x-data-gov-fr-res-title": "gtfs-nord-rtm.zip",
-            "x-data-gov-fr-dataset-id": "63da9677e47cfa0836c459e5",
-            "skip-reason": "Feed is expired according to metadata"
+            "x-data-gov-fr-dataset-id": "63da9677e47cfa0836c459e5"
         },
         {
             "name": "gtfs-urbain-de-la-zone-nord-cap-nord",
@@ -7286,9 +7190,7 @@
             "spec": "gtfs-rt",
             "x-data-gov-fr-res-id": 84086,
             "x-data-gov-fr-dataset-id": "63da9677e47cfa0836c459e5",
-            "managed-by-script": true,
-            "skip": true,
-            "skip-reason": "Feed is expired according to metadata"
+            "managed-by-script": true
         },
         {
             "name": "gtfs-urbain-de-la-zone-nord-cap-nord",
@@ -7302,9 +7204,7 @@
             "spec": "gtfs-rt",
             "x-data-gov-fr-res-id": 84085,
             "x-data-gov-fr-dataset-id": "63da9677e47cfa0836c459e5",
-            "managed-by-script": true,
-            "skip": true,
-            "skip-reason": "Feed is expired according to metadata"
+            "managed-by-script": true
         },
         {
             "name": "gtfs-urbain-de-la-zone-nord-cap-nord",
@@ -7318,9 +7218,7 @@
             "spec": "gtfs-rt",
             "x-data-gov-fr-res-id": 84084,
             "x-data-gov-fr-dataset-id": "63da9677e47cfa0836c459e5",
-            "managed-by-script": true,
-            "skip": true,
-            "skip-reason": "Feed is expired according to metadata"
+            "managed-by-script": true
         },
         {
             "name": "transurbain-evreux-portes-de-normandie",
@@ -7506,7 +7404,7 @@
             "x-data-gov-fr-res-id": 80680,
             "managed-by-script": true,
             "skip": false,
-            "x-data-gov-fr-res-title": "pt-th-offer-deepmob-gtfs-20241023-833-opendata.zip",
+            "x-data-gov-fr-res-title": "Jeu de données théorique du réseau DeepMob (Dieppe Maritime)",
             "x-data-gov-fr-dataset-id": "63fdc0169f43bbfe92318dd5"
         },
         {
@@ -7982,9 +7880,7 @@
             "x-data-gov-fr-res-id": 82148,
             "managed-by-script": true,
             "x-data-gov-fr-res-title": "gtfs-citea-sept2024.zip",
-            "x-data-gov-fr-dataset-id": "649c3cc8d773e2df916455c7",
-            "skip": true,
-            "skip-reason": "Feed is expired according to metadata"
+            "x-data-gov-fr-dataset-id": "649c3cc8d773e2df916455c7"
         },
         {
             "name": "ce-jeu-de-donnees-contient-la-liste-des-arrets-des-horaires-et-des-parcours-theoriques-du-reseau-de-transport-urbain-et-interurbain-de-vrm",
@@ -7998,9 +7894,7 @@
             "x-data-gov-fr-res-id": 83117,
             "managed-by-script": true,
             "x-data-gov-fr-res-title": "Trip Update",
-            "x-data-gov-fr-dataset-id": "649c3cc8d773e2df916455c7",
-            "skip": true,
-            "skip-reason": "Feed is expired according to metadata"
+            "x-data-gov-fr-dataset-id": "649c3cc8d773e2df916455c7"
         },
         {
             "name": "ce-jeu-de-donnees-contient-la-liste-des-arrets-des-horaires-et-des-parcours-theoriques-du-reseau-de-transport-urbain-et-interurbain-de-vrm",
@@ -8014,9 +7908,7 @@
             "x-data-gov-fr-res-id": 83119,
             "managed-by-script": true,
             "x-data-gov-fr-res-title": "Service Alert",
-            "x-data-gov-fr-dataset-id": "649c3cc8d773e2df916455c7",
-            "skip": true,
-            "skip-reason": "Feed is expired according to metadata"
+            "x-data-gov-fr-dataset-id": "649c3cc8d773e2df916455c7"
         },
         {
             "name": "donnees-theoriques-et-temps-reel",
@@ -8059,9 +7951,7 @@
             "x-data-gov-fr-res-id": 81252,
             "x-data-gov-fr-dataset-id": "64a67be7a00fd1bbe918ec5d",
             "x-data-gov-fr-res-title": "Horaires du réseau de transport A Citadina au format GTFS",
-            "managed-by-script": true,
-            "skip": true,
-            "skip-reason": "Feed is expired according to metadata"
+            "managed-by-script": true
         },
         {
             "name": "reseau-a-citadina-porto-vecchio-horaires-theoriques-et-temps-reel",
@@ -8516,8 +8406,6 @@
             },
             "x-data-gov-fr-res-id": 81177,
             "managed-by-script": true,
-            "skip": true,
-            "skip-reason": "Feed is expired according to metadata",
             "x-data-gov-fr-res-title": "pt-th-offer-sngonavettegiverny-gtfs-20240413-382-opendata.zip",
             "x-data-gov-fr-dataset-id": "64c7be0e1e2104f03ce37cd6"
         },
@@ -8659,6 +8547,20 @@
             "managed-by-script": true
         },
         {
+            "name": "fichier-gtfs-des-transports-scolaires-de-la-communaute-dagglomeration-du-puy-en-velay",
+            "type": "http",
+            "url": "https://transport.data.gouv.fr/resources/84271/download",
+            "fix": true,
+            "license": {
+                "url": "https://transport.data.gouv.fr/datasets/fichier-gtfs-des-transports-scolaires-de-la-communaute-dagglomeration-du-puy-en-velay",
+                "spdx-identifier": "etalab-2.0"
+            },
+            "x-data-gov-fr-res-id": 84271,
+            "x-data-gov-fr-dataset-id": "654d73267251a4a6b412b369",
+            "x-data-gov-fr-res-title": "GTFS Scolaire - Fichier ZIP",
+            "managed-by-script": true
+        },
+        {
             "name": "transports-a-la-demande-en-pays-de-la-loire-gtfs-flex-aleop",
             "type": "http",
             "url": "https://www.data.gouv.fr/api/1/datasets/r/7bc6edfa-d68c-4cc7-a1a5-a8b05fcae444",
@@ -8669,8 +8571,6 @@
             },
             "x-data-gov-fr-res-id": 81394,
             "managed-by-script": true,
-            "skip": true,
-            "skip-reason": "Feed is expired according to metadata",
             "x-data-gov-fr-res-title": "GTFS Flex Aléop Région Pays de la Loire",
             "x-data-gov-fr-dataset-id": "655f627575e63eb0982e5eb2"
         },
@@ -8838,7 +8738,7 @@
             "x-data-gov-fr-res-id": 81463,
             "managed-by-script": true,
             "skip": false,
-            "x-data-gov-fr-res-title": "Breizhgo 35",
+            "x-data-gov-fr-res-title": "Breizhgo Car 35",
             "x-data-gov-fr-dataset-id": "658626a8a582bbf574c71b48",
             "script": "generic-coach-to-bus.lua"
         },
@@ -9019,7 +8919,7 @@
             "x-data-gov-fr-res-id": 81486,
             "managed-by-script": true,
             "skip": false,
-            "x-data-gov-fr-res-title": "Breizhgo 35",
+            "x-data-gov-fr-res-title": "Breizhgo Car 35",
             "x-data-gov-fr-dataset-id": "658626aaa5597d726dc71b49"
         },
         {
@@ -9253,8 +9153,6 @@
             },
             "x-data-gov-fr-res-id": 81585,
             "managed-by-script": true,
-            "skip": true,
-            "skip-reason": "Feed is expired according to metadata",
             "x-data-gov-fr-res-title": "CAPG_GTFS_2026",
             "x-data-gov-fr-dataset-id": "65a901970267d05025a905ec"
         },
@@ -9885,10 +9783,8 @@
             },
             "x-data-gov-fr-res-id": 81876,
             "managed-by-script": true,
-            "skip": true,
             "x-data-gov-fr-res-title": "gtfs.zip",
-            "x-data-gov-fr-dataset-id": "6661b213e00b47a6f617e471",
-            "skip-reason": "Feed is expired according to metadata"
+            "x-data-gov-fr-dataset-id": "6661b213e00b47a6f617e471"
         },
         {
             "name": "reseau-rtca",
@@ -9902,9 +9798,7 @@
             "spec": "gtfs-rt",
             "x-data-gov-fr-res-id": 84159,
             "x-data-gov-fr-dataset-id": "6661b213e00b47a6f617e471",
-            "managed-by-script": true,
-            "skip": true,
-            "skip-reason": "Feed is expired according to metadata"
+            "managed-by-script": true
         },
         {
             "name": "reseau-rtca",
@@ -9918,9 +9812,7 @@
             "spec": "gtfs-rt",
             "x-data-gov-fr-res-id": 84158,
             "x-data-gov-fr-dataset-id": "6661b213e00b47a6f617e471",
-            "managed-by-script": true,
-            "skip": true,
-            "skip-reason": "Feed is expired according to metadata"
+            "managed-by-script": true
         },
         {
             "name": "offre-et-temps-reel-du-service-velos-en-libre-service-naolib-de-nantes-metropole-au-format-gbfs",
@@ -10225,10 +10117,8 @@
             },
             "x-data-gov-fr-res-id": 83739,
             "managed-by-script": true,
-            "skip": true,
             "x-data-gov-fr-res-title": "Téléphérique - AOU TO NOV",
-            "x-data-gov-fr-dataset-id": "667d7d9f6ca66f624e3facbf",
-            "skip-reason": "Feed is expired according to metadata"
+            "x-data-gov-fr-dataset-id": "667d7d9f6ca66f624e3facbf"
         },
         {
             "name": "optymo-auto-en-libre-service",
@@ -11319,8 +11209,6 @@
             },
             "x-data-gov-fr-res-id": 82619,
             "managed-by-script": true,
-            "skip": true,
-            "skip-reason": "Feed is expired according to metadata",
             "x-data-gov-fr-res-title": "Lien vers le GTFS du réseau urbain de Parthenay (PYBUS)",
             "x-data-gov-fr-dataset-id": "675465e5cb8ed4046fb125de"
         },
@@ -11335,8 +11223,6 @@
             "spec": "gtfs-rt",
             "x-data-gov-fr-res-id": 82620,
             "managed-by-script": true,
-            "skip": true,
-            "skip-reason": "Feed is expired according to metadata",
             "x-data-gov-fr-res-title": "GTFS-RT  Réseau PYBUS",
             "x-data-gov-fr-dataset-id": "675465e5cb8ed4046fb125de"
         },
@@ -11770,10 +11656,8 @@
             },
             "x-data-gov-fr-res-id": 82715,
             "managed-by-script": true,
-            "skip": true,
             "x-data-gov-fr-res-title": "Réseau TCVO_Orange GTFS",
-            "x-data-gov-fr-dataset-id": "6785a9fc729b9729dbe536af",
-            "skip-reason": "Feed is expired according to metadata"
+            "x-data-gov-fr-dataset-id": "6785a9fc729b9729dbe536af"
         },
         {
             "name": "transport-en-commun-de-la-ville-dorange-ccpop-1",
@@ -11931,10 +11815,8 @@
             },
             "x-data-gov-fr-res-id": 82729,
             "managed-by-script": true,
-            "skip": true,
             "x-data-gov-fr-res-title": "Transaltitude",
-            "x-data-gov-fr-dataset-id": "678d0721a9efa066b6eed606",
-            "skip-reason": "Feed is expired according to metadata"
+            "x-data-gov-fr-dataset-id": "678d0721a9efa066b6eed606"
         },
         {
             "name": "desserte-des-stations-de-ski-iseroises-transaltitude-38",
@@ -11948,9 +11830,7 @@
             "spec": "gtfs-rt",
             "x-data-gov-fr-res-id": 83954,
             "x-data-gov-fr-dataset-id": "678d0721a9efa066b6eed606",
-            "managed-by-script": true,
-            "skip": true,
-            "skip-reason": "Feed is expired according to metadata"
+            "managed-by-script": true
         },
         {
             "type": "url",
@@ -12161,8 +12041,6 @@
             },
             "x-data-gov-fr-res-id": 83626,
             "managed-by-script": true,
-            "skip": true,
-            "skip-reason": "Feed is expired according to metadata",
             "x-data-gov-fr-res-title": "Navettes Bourg-Saint-Maurice",
             "x-data-gov-fr-dataset-id": "67978852ec1bc7b5e4b1f3bd"
         },
@@ -12235,10 +12113,8 @@
             },
             "x-data-gov-fr-res-id": 83511,
             "managed-by-script": true,
-            "skip": true,
             "x-data-gov-fr-res-title": "GTFS TSUD",
-            "x-data-gov-fr-dataset-id": "679ba2410b1e79f2fd85236d",
-            "skip-reason": "Feed is expired according to metadata"
+            "x-data-gov-fr-dataset-id": "679ba2410b1e79f2fd85236d"
         },
         {
             "name": "tier-dott-gbfs-bordeaux",
@@ -12466,9 +12342,7 @@
             "x-data-gov-fr-res-id": 83716,
             "x-data-gov-fr-dataset-id": "67e4099d504ada1f4862a391",
             "x-data-gov-fr-res-title": "GTFS Nouveau réseau urbain CoqueliGO au 01_12_2025",
-            "managed-by-script": true,
-            "skip": true,
-            "skip-reason": "Feed is expired according to metadata"
+            "managed-by-script": true
         },
         {
             "name": "gtfs-transports-a-la-demande-tad-coqueligo",
@@ -12481,10 +12355,8 @@
             },
             "x-data-gov-fr-res-id": 82904,
             "managed-by-script": true,
-            "skip": true,
             "x-data-gov-fr-res-title": "GFTS TAD COQUELIGO ARA 2026",
-            "x-data-gov-fr-dataset-id": "67e40a9dcf1f7d85d15517b0",
-            "skip-reason": "Feed is expired according to metadata"
+            "x-data-gov-fr-dataset-id": "67e40a9dcf1f7d85d15517b0"
         },
         {
             "name": "vehicules-en-autopartage-1",
@@ -12740,8 +12612,6 @@
             },
             "x-data-gov-fr-res-id": 83203,
             "managed-by-script": true,
-            "skip": true,
-            "skip-reason": "Feed is expired according to metadata",
             "x-data-gov-fr-res-title": "GTFS_BISCABUS_ 2026-06-15",
             "x-data-gov-fr-dataset-id": "683da6ed51c1d5d87fbbd4fe"
         },
@@ -13113,8 +12983,6 @@
             },
             "x-data-gov-fr-res-id": 83291,
             "managed-by-script": true,
-            "skip": true,
-            "skip-reason": "Feed is expired according to metadata",
             "x-data-gov-fr-res-title": "Trans'Agglo_Réseau des transports en commun.GTFS.zip",
             "x-data-gov-fr-dataset-id": "687aec884e4a0dd29c55372d"
         },
@@ -13274,10 +13142,8 @@
             },
             "x-data-gov-fr-res-id": 83372,
             "managed-by-script": true,
-            "skip": true,
             "x-data-gov-fr-res-title": "GTFS",
-            "x-data-gov-fr-dataset-id": "68b169c0157d0b9b1d417479",
-            "skip-reason": "Feed is expired according to metadata"
+            "x-data-gov-fr-dataset-id": "68b169c0157d0b9b1d417479"
         },
         {
             "name": "reseau-de-transport-artis",
@@ -13353,10 +13219,8 @@
             },
             "x-data-gov-fr-res-id": 83396,
             "managed-by-script": true,
-            "skip": true,
             "x-data-gov-fr-res-title": "Fichier GFTS - Réseau Hauts-de-France - Secteur Caudrésis-Catésis",
-            "x-data-gov-fr-dataset-id": "68c28089c27ce940258e2133",
-            "skip-reason": "Feed is expired according to metadata"
+            "x-data-gov-fr-dataset-id": "68c28089c27ce940258e2133"
         },
         {
             "name": "flux-gbfs-montenvelo",
@@ -13404,18 +13268,16 @@
         {
             "name": "flibco-lille-airport-gtfs",
             "type": "http",
-            "url": "https://www.data.gouv.fr/api/1/datasets/r/f389ca22-d36e-46f3-9e00-5be700c7139b",
+            "url": "https://www.data.gouv.fr/api/1/datasets/r/43b2ad90-b1e1-41ea-9658-c6b8a30d8d06",
             "fix": true,
             "license": {
                 "url": "https://transport.data.gouv.fr/datasets/flibco-lille-airport-gtfs",
                 "spdx-identifier": "etalab-2.0"
             },
-            "x-data-gov-fr-res-id": 83405,
-            "managed-by-script": true,
-            "skip": true,
-            "skip-reason": "Feed is expired according to metadata",
-            "x-data-gov-fr-res-title": "Lille_v5.zip",
-            "x-data-gov-fr-dataset-id": "68c805f159d6b94af5184dd7"
+            "x-data-gov-fr-res-id": 84261,
+            "x-data-gov-fr-dataset-id": "68c805f159d6b94af5184dd7",
+            "x-data-gov-fr-res-title": "lille-v6.zip",
+            "managed-by-script": true
         },
         {
             "name": "horaires-des-traversees-brittany-ferries",
@@ -14047,20 +13909,6 @@
             "skip-reason": "Feed is expired according to metadata"
         },
         {
-            "name": "rubis-grand-bourg-mobilites-offre-de-transport-theorique-et-temps-reel--84243",
-            "type": "http",
-            "url": "https://transport.data.gouv.fr/resources/84243/download",
-            "fix": true,
-            "license": {
-                "url": "https://transport.data.gouv.fr/datasets/rubis-grand-bourg-mobilites-offre-de-transport-theorique-et-temps-reel",
-                "spdx-identifier": "etalab-2.0"
-            },
-            "x-data-gov-fr-res-id": 84243,
-            "x-data-gov-fr-dataset-id": "6929bcf1f8e17f7057966df0",
-            "x-data-gov-fr-res-title": "GTFS SAEIV",
-            "managed-by-script": true
-        },
-        {
             "name": "rubis-grand-bourg-mobilites-offre-de-transport-theorique-et-temps-reel",
             "type": "http",
             "url": "https://transport.data.gouv.fr/resources/84244/download",
@@ -14086,6 +13934,20 @@
             "spec": "gtfs-rt",
             "x-data-gov-fr-res-id": 83844,
             "x-data-gov-fr-dataset-id": "6929bcf1f8e17f7057966df0",
+            "managed-by-script": true
+        },
+        {
+            "name": "rubis-grand-bourg-mobilites-offre-de-transport-theorique-et-temps-reel--84267",
+            "type": "http",
+            "url": "https://transport.data.gouv.fr/resources/84267/download",
+            "fix": true,
+            "license": {
+                "url": "https://transport.data.gouv.fr/datasets/rubis-grand-bourg-mobilites-offre-de-transport-theorique-et-temps-reel",
+                "spdx-identifier": "etalab-2.0"
+            },
+            "x-data-gov-fr-res-id": 84267,
+            "x-data-gov-fr-dataset-id": "6929bcf1f8e17f7057966df0",
+            "x-data-gov-fr-res-title": "GTFS SAEIV 21102026.zip",
             "managed-by-script": true
         },
         {
@@ -14214,7 +14076,7 @@
             "url": "https://transport.data.gouv.fr/resources/83762/download",
             "fix": true,
             "license": {
-                "url": "https://transport.data.gouv.fr/datasets/reseau-urbain-scolaire-lila-presquile",
+                "url": "https://transport.data.gouv.fr/datasets/reseau-urbain-scolaire-lila",
                 "spdx-identifier": "ODbL-1.0"
             },
             "x-data-gov-fr-res-id": 83762,
@@ -14228,7 +14090,7 @@
             "type": "url",
             "url": "https://proxy.transport.data.gouv.fr/resource/lila-presquile-cap-atlantique-gtfs-rt-service-alert",
             "license": {
-                "url": "https://transport.data.gouv.fr/datasets/reseau-urbain-scolaire-lila-presquile",
+                "url": "https://transport.data.gouv.fr/datasets/reseau-urbain-scolaire-lila",
                 "spdx-identifier": "ODbL-1.0"
             },
             "spec": "gtfs-rt",
@@ -14242,7 +14104,7 @@
             "type": "url",
             "url": "https://proxy.transport.data.gouv.fr/resource/lila-presquile-cap-atlantique-gtfs-rt-trip-update",
             "license": {
-                "url": "https://transport.data.gouv.fr/datasets/reseau-urbain-scolaire-lila-presquile",
+                "url": "https://transport.data.gouv.fr/datasets/reseau-urbain-scolaire-lila",
                 "spdx-identifier": "ODbL-1.0"
             },
             "spec": "gtfs-rt",
@@ -14256,7 +14118,7 @@
             "type": "url",
             "url": "https://proxy.transport.data.gouv.fr/resource/lila-presquile-cap-atlantique-gtfs-rt",
             "license": {
-                "url": "https://transport.data.gouv.fr/datasets/reseau-urbain-scolaire-lila-presquile",
+                "url": "https://transport.data.gouv.fr/datasets/reseau-urbain-scolaire-lila",
                 "spdx-identifier": "ODbL-1.0"
             },
             "spec": "gtfs-rt",
@@ -14632,9 +14494,7 @@
             "x-data-gov-fr-res-id": 83848,
             "x-data-gov-fr-dataset-id": "699573585cec51215c157895",
             "x-data-gov-fr-res-title": "Funiculaire Bourg-Saint-Maurice/ Les Arcs période estivale ",
-            "managed-by-script": true,
-            "skip": true,
-            "skip-reason": "Feed is expired according to metadata"
+            "managed-by-script": true
         },
         {
             "name": "offre-de-transport-du-reseau-ole-lunel-agglo-gtfs-et-gtfs-rt",
@@ -14879,22 +14739,6 @@
             "skip-reason": "Invalid GTFS, not zipped"
         },
         {
-            "name": "reseau-transport-urbain-yole-bus-gtfs-1",
-            "type": "http",
-            "url": "https://transport.data.gouv.fr/resources/83969/download",
-            "fix": true,
-            "license": {
-                "url": "https://transport.data.gouv.fr/datasets/reseau-transport-urbain-yole-bus-gtfs-1",
-                "spdx-identifier": "etalab-2.0"
-            },
-            "x-data-gov-fr-res-id": 83969,
-            "x-data-gov-fr-dataset-id": "69c2b4e8c305846b8a911688",
-            "x-data-gov-fr-res-title": "GTFS Challans Gois.zip",
-            "managed-by-script": true,
-            "skip": true,
-            "skip-reason": "Feed is expired according to metadata"
-        },
-        {
             "name": "telecabine-eau-dolle-express-allemond-oz",
             "type": "http",
             "url": "https://www.data.gouv.fr/api/1/datasets/r/179d2464-f007-4005-976e-a7fd98eabcfe",
@@ -15089,9 +14933,7 @@
             "x-data-gov-fr-res-id": 84105,
             "x-data-gov-fr-dataset-id": "6a0483992788d7dd2da4e10b",
             "x-data-gov-fr-res-title": "GTFS - CBUS .zip",
-            "managed-by-script": true,
-            "skip": true,
-            "skip-reason": "Feed is expired according to metadata"
+            "managed-by-script": true
         },
         {
             "name": "navette-chorges-chanteloube-ete-2026-reseau-vai",
@@ -15121,9 +14963,7 @@
             "x-data-gov-fr-res-id": 84032,
             "x-data-gov-fr-dataset-id": "6a0ad3fb76608d8f515d1d7b",
             "x-data-gov-fr-res-title": "GTFS du réseau SMTUT",
-            "managed-by-script": true,
-            "skip": true,
-            "skip-reason": "Feed is expired according to metadata"
+            "managed-by-script": true
         },
         {
             "name": "donnees-du-service-de-velos-en-libre-service-le-marcel-troyes-champagne-metropole",
@@ -15496,6 +15336,20 @@
             "managed-by-script": true
         },
         {
+            "name": "caen-la-mer-reseau-twisto-gtfs-siri-3",
+            "type": "http",
+            "url": "https://www.data.gouv.fr/api/1/datasets/r/a5a8f046-e282-4010-91c5-82bc1f70ff73",
+            "fix": true,
+            "license": {
+                "url": "https://transport.data.gouv.fr/datasets/caen-la-mer-reseau-twisto-gtfs-siri-3",
+                "spdx-identifier": null
+            },
+            "x-data-gov-fr-res-id": 84255,
+            "x-data-gov-fr-dataset-id": "6a6be5976a05df136d48fb7a",
+            "x-data-gov-fr-res-title": "GTFS twisto.zip",
+            "managed-by-script": true
+        },
+        {
             "name": "liste-des-stations-velolib-et-disponibilite-en-temps-reel-4",
             "type": "url",
             "url": "https://www.data.gouv.fr/api/1/datasets/r/91c00a56-4fa2-4942-9b48-830f7268cb08",
@@ -15722,6 +15576,20 @@
             "spec": "gtfs-rt"
         },
         {
+            "name": "gbfs-casgbs",
+            "type": "url",
+            "url": "https://www.data.gouv.fr/api/1/datasets/r/457c28f0-b862-4724-bcb2-92d93e3785df",
+            "spec": "gbfs",
+            "license": {
+                "url": "https://transport.data.gouv.fr/datasets/gbfs-casgbs",
+                "spdx-identifier": "etalab-2.0"
+            },
+            "x-data-gov-fr-res-id": 84260,
+            "x-data-gov-fr-dataset-id": "6ab65ba1ade082e7bb987667",
+            "x-data-gov-fr-res-title": "Lime Paris West",
+            "managed-by-script": true
+        },
+        {
             "name": "gbfs-paris-saclay",
             "type": "url",
             "url": "https://www.data.gouv.fr/api/1/datasets/r/40e3cc67-e051-47b5-87c5-8933ba9b1d9b",
@@ -15733,6 +15601,34 @@
             "x-data-gov-fr-res-id": 84246,
             "x-data-gov-fr-dataset-id": "6ab65c37cfb8e94afdd982b2",
             "x-data-gov-fr-res-title": "Lime Paris Saclay",
+            "managed-by-script": true
+        },
+        {
+            "name": "gbfs-paris-antony",
+            "type": "url",
+            "url": "https://www.data.gouv.fr/api/1/datasets/r/9b91a136-922c-4a2d-9d3f-8fcf87e069dd",
+            "spec": "gbfs",
+            "license": {
+                "url": "https://transport.data.gouv.fr/datasets/gbfs-paris-antony",
+                "spdx-identifier": "etalab-2.0"
+            },
+            "x-data-gov-fr-res-id": 84258,
+            "x-data-gov-fr-dataset-id": "6ab65cb75ffb64dc0d9034b8",
+            "x-data-gov-fr-res-title": "Lime Paris Antony",
+            "managed-by-script": true
+        },
+        {
+            "name": "gbfs-paris-sceaux",
+            "type": "url",
+            "url": "https://www.data.gouv.fr/api/1/datasets/r/dfd29259-3aad-4ce2-a70d-d28f2bdd69c4",
+            "spec": "gbfs",
+            "license": {
+                "url": "https://transport.data.gouv.fr/datasets/gbfs-paris-sceaux",
+                "spdx-identifier": "etalab-2.0"
+            },
+            "x-data-gov-fr-res-id": 84259,
+            "x-data-gov-fr-dataset-id": "6ab65d47eac49a0fc722c577",
+            "x-data-gov-fr-res-title": "Lime Paris Sceaux",
             "managed-by-script": true
         },
         {
@@ -15778,6 +15674,20 @@
             "managed-by-script": true
         },
         {
+            "name": "gbfs-nantes",
+            "type": "url",
+            "url": "https://www.data.gouv.fr/api/1/datasets/r/174afc6e-9e71-4e5d-a069-650a02b5f953",
+            "spec": "gbfs",
+            "license": {
+                "url": "https://transport.data.gouv.fr/datasets/gbfs-nantes",
+                "spdx-identifier": null
+            },
+            "x-data-gov-fr-res-id": 84257,
+            "x-data-gov-fr-dataset-id": "6ace1e85ad3a4e955baf9b71",
+            "x-data-gov-fr-res-title": "Nantes GBFS",
+            "managed-by-script": true
+        },
+        {
             "name": "reseau-tedbus-lignes-scolaires-dracenie-provence-verdon-agglomeration",
             "type": "http",
             "url": "https://transport.data.gouv.fr/resources/84251/download",
@@ -15790,6 +15700,34 @@
             "x-data-gov-fr-dataset-id": "6ad018064a2b79227c7ebf8d",
             "x-data-gov-fr-res-title": "TEDbus-horaires_scolaires.zip",
             "managed-by-script": true
+        },
+        {
+            "name": "mova-ensemble-de-loffre-de-transport-collectif",
+            "type": "http",
+            "url": "https://www.data.gouv.fr/api/1/datasets/r/e6e71df3-0163-42ed-9c1f-927c4026ab1b",
+            "fix": true,
+            "license": {
+                "url": "https://transport.data.gouv.fr/datasets/mova-ensemble-de-loffre-de-transport-collectif",
+                "spdx-identifier": "etalab-2.0"
+            },
+            "x-data-gov-fr-res-id": 84254,
+            "x-data-gov-fr-dataset-id": "6ad5cb9119b05c9e577a85e2",
+            "x-data-gov-fr-res-title": "GTFS_MOVA_Vitré Communauté.zip",
+            "managed-by-script": true
+        },
+        {
+            "name": "mova-ensemble-de-loffre-de-transport-collectif",
+            "type": "url",
+            "url": "https://www.data.gouv.fr/api/1/datasets/r/19c43179-d9c2-46b1-972b-508729e9cc5b",
+            "x-data-gov-fr-res-title": "GTFS-RT - Horaires en temps réel et position des véhicules",
+            "license": {
+                "url": "https://transport.data.gouv.fr/datasets/mova-ensemble-de-loffre-de-transport-collectif",
+                "spdx-identifier": "etalab-2.0"
+            },
+            "x-data-gov-fr-res-id": 84268,
+            "x-data-gov-fr-dataset-id": "6ad5cb9119b05c9e577a85e2",
+            "managed-by-script": true,
+            "spec": "gtfs-rt"
         }
     ]
 }
