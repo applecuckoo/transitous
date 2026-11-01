@@ -32,19 +32,24 @@
             "name": "mav",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/1_198/trip-updates.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/1_198/trip-updates.pb",
+            "use-feed-proxy": true
         },
         {
             "name": "mav",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/1_198/vehicle-positions.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/1_198/vehicle-positions.pb",
+            "use-feed-proxy": true,
+            "skip": true,
+            "skip-reason": "We currently don't make use of vehicle positions feeds"
         },
         {
             "name": "mav",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/1_198/alerts.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/1_198/alerts.pb",
+            "use-feed-proxy": true
         },
         {
             "name": "gysev",
@@ -55,19 +60,24 @@
             "name": "gysev",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/1_134/trip-updates.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/1_134/trip-updates.pb",
+            "use-feed-proxy": true
         },
         {
             "name": "gysev",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/1_134/vehicle-positions.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/1_134/vehicle-positions.pb",
+            "use-feed-proxy": true,
+            "skip": true,
+            "skip-reason": "We currently don't make use of vehicle positions feeds"
         },
         {
             "name": "gysev",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/1_134/alerts.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/1_134/alerts.pb",
+            "use-feed-proxy": true
         },
         {
             "name": "volan-helykozi",
@@ -78,19 +88,24 @@
             "name": "volan-helykozi",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir/trip-updates.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir/trip-updates.pb",
+            "use-feed-proxy": true
         },
         {
             "name": "volan-helykozi",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir/vehicle-positions.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir/vehicle-positions.pb",
+            "use-feed-proxy": true,
+            "skip": true,
+            "skip-reason": "We currently don't make use of vehicle positions feeds"
         },
         {
             "name": "volan-helykozi",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir/alerts.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir/alerts.pb",
+            "use-feed-proxy": true
         },
         {
             "name": "dott",
@@ -177,19 +192,24 @@
             "name": "dkv",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/debrecen/trip-updates.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/debrecen/trip-updates.pb",
+            "use-feed-proxy": true
         },
         {
             "name": "dkv",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/debrecen/vehicle-positions.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/debrecen/vehicle-positions.pb",
+            "use-feed-proxy": true,
+            "skip": true,
+            "skip-reason": "We currently don't make use of vehicle positions feeds"
         },
         {
             "name": "dkv",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/debrecen/alerts.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/debrecen/alerts.pb",
+            "use-feed-proxy": true
         },
         {
             "name": "mvk",
@@ -200,19 +220,24 @@
             "name": "mvk",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/mvkzrt/trip-updates.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/mvkzrt/trip-updates.pb",
+            "use-feed-proxy": true
         },
         {
             "name": "mvk",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/mvkzrt/vehicle-positions.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/mvkzrt/vehicle-positions.pb",
+            "use-feed-proxy": true,
+            "skip": true,
+            "skip-reason": "We currently don't make use of vehicle positions feeds"
         },
         {
             "name": "mvk",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/mvkzrt/alerts.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/mvkzrt/alerts.pb",
+            "use-feed-proxy": true
         },
         {
             "name": "szkt",
@@ -228,19 +253,24 @@
             "name": "vbusz",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/VBUSZ/trip-updates.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/VBUSZ/trip-updates.pb",
+            "use-feed-proxy": true
         },
         {
             "name": "vbusz",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/VBUSZ/vehicle-positions.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/VBUSZ/vehicle-positions.pb",
+            "use-feed-proxy": true,
+            "skip": true,
+            "skip-reason": "We currently don't make use of vehicle positions feeds"
         },
         {
             "name": "vbusz",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/VBUSZ/alerts.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/VBUSZ/alerts.pb",
+            "use-feed-proxy": true
         },
         {
             "name": "tukebusz",
@@ -261,19 +291,24 @@
             "name": "paksbusz",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/paks/trip-updates.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/paks/trip-updates.pb",
+            "use-feed-proxy": true
         },
         {
             "name": "paksbusz",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/paks/vehicle-positions.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/paks/vehicle-positions.pb",
+            "use-feed-proxy": true,
+            "skip": true,
+            "skip-reason": "We currently don't make use of vehicle positions feeds"
         },
         {
             "name": "paksbusz",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/paks/alerts.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/paks/alerts.pb",
+            "use-feed-proxy": true
         },
         {
             "name": "BAHART",
@@ -377,19 +412,24 @@
             "name": "volan-ajka",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-06673/trip-updates.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-06673/trip-updates.pb",
+            "use-feed-proxy": true
         },
         {
             "name": "volan-ajka",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-06673/vehicle-positions.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-06673/vehicle-positions.pb",
+            "use-feed-proxy": true,
+            "skip": true,
+            "skip-reason": "We currently don't make use of vehicle positions feeds"
         },
         {
             "name": "volan-ajka",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-06673/alerts.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-06673/alerts.pb",
+            "use-feed-proxy": true
         },
         {
             "name": "volan-baja",
@@ -400,19 +440,24 @@
             "name": "volan-baja",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-03522/trip-updates.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-03522/trip-updates.pb",
+            "use-feed-proxy": true
         },
         {
             "name": "volan-baja",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-03522/vehicle-positions.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-03522/vehicle-positions.pb",
+            "use-feed-proxy": true,
+            "skip": true,
+            "skip-reason": "We currently don't make use of vehicle positions feeds"
         },
         {
             "name": "volan-baja",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-03522/alerts.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-03522/alerts.pb",
+            "use-feed-proxy": true
         },
         {
             "name": "volan-balassagyarmat",
@@ -423,19 +468,24 @@
             "name": "volan-balassagyarmat",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-13657/trip-updates.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-13657/trip-updates.pb",
+            "use-feed-proxy": true
         },
         {
             "name": "volan-balassagyarmat",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-13657/vehicle-positions.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-13657/vehicle-positions.pb",
+            "use-feed-proxy": true,
+            "skip": true,
+            "skip-reason": "We currently don't make use of vehicle positions feeds"
         },
         {
             "name": "volan-balassagyarmat",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-13657/alerts.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-13657/alerts.pb",
+            "use-feed-proxy": true
         },
         {
             "name": "volan-balatonfured",
@@ -446,19 +496,24 @@
             "name": "volan-balatonfured",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-21175/trip-updates.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-21175/trip-updates.pb",
+            "use-feed-proxy": true
         },
         {
             "name": "volan-balatonfured",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-21175/vehicle-positions.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-21175/vehicle-positions.pb",
+            "use-feed-proxy": true,
+            "skip": true,
+            "skip-reason": "We currently don't make use of vehicle positions feeds"
         },
         {
             "name": "volan-balatonfured",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-21175/alerts.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-21175/alerts.pb",
+            "use-feed-proxy": true
         },
         {
             "name": "volan-balatonfuzfo",
@@ -469,19 +524,24 @@
             "name": "volan-balatonfuzfo",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-02219/trip-updates.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-02219/trip-updates.pb",
+            "use-feed-proxy": true
         },
         {
             "name": "volan-balatonfuzfo",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-02219/vehicle-positions.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-02219/vehicle-positions.pb",
+            "use-feed-proxy": true,
+            "skip": true,
+            "skip-reason": "We currently don't make use of vehicle positions feeds"
         },
         {
             "name": "volan-balatonfuzfo",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-02219/alerts.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-02219/alerts.pb",
+            "use-feed-proxy": true
         },
         {
             "name": "volan-balmazujvaros",
@@ -492,19 +552,24 @@
             "name": "volan-balmazujvaros",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-02918/trip-updates.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-02918/trip-updates.pb",
+            "use-feed-proxy": true
         },
         {
             "name": "volan-balmazujvaros",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-02918/vehicle-positions.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-02918/vehicle-positions.pb",
+            "use-feed-proxy": true,
+            "skip": true,
+            "skip-reason": "We currently don't make use of vehicle positions feeds"
         },
         {
             "name": "volan-balmazujvaros",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-02918/alerts.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-02918/alerts.pb",
+            "use-feed-proxy": true
         },
         {
             "name": "volan-bataszek",
@@ -515,19 +580,24 @@
             "name": "volan-bataszek",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-08864/trip-updates.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-08864/trip-updates.pb",
+            "use-feed-proxy": true
         },
         {
             "name": "volan-bataszek",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-08864/vehicle-positions.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-08864/vehicle-positions.pb",
+            "use-feed-proxy": true,
+            "skip": true,
+            "skip-reason": "We currently don't make use of vehicle positions feeds"
         },
         {
             "name": "volan-bataszek",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-08864/alerts.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-08864/alerts.pb",
+            "use-feed-proxy": true
         },
         {
             "name": "volan-batonyterenye",
@@ -538,19 +608,24 @@
             "name": "volan-batonyterenye",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-33534/trip-updates.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-33534/trip-updates.pb",
+            "use-feed-proxy": true
         },
         {
             "name": "volan-batonyterenye",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-33534/vehicle-positions.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-33534/vehicle-positions.pb",
+            "use-feed-proxy": true,
+            "skip": true,
+            "skip-reason": "We currently don't make use of vehicle positions feeds"
         },
         {
             "name": "volan-batonyterenye",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-33534/alerts.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-33534/alerts.pb",
+            "use-feed-proxy": true
         },
         {
             "name": "volan-bekescsaba",
@@ -561,19 +636,24 @@
             "name": "volan-bekescsaba",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-15200/trip-updates.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-15200/trip-updates.pb",
+            "use-feed-proxy": true
         },
         {
             "name": "volan-bekescsaba",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-15200/vehicle-positions.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-15200/vehicle-positions.pb",
+            "use-feed-proxy": true,
+            "skip": true,
+            "skip-reason": "We currently don't make use of vehicle positions feeds"
         },
         {
             "name": "volan-bekescsaba",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-15200/alerts.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-15200/alerts.pb",
+            "use-feed-proxy": true
         },
         {
             "name": "volan-bonyhad",
@@ -584,19 +664,24 @@
             "name": "volan-bonyhad",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-06497/trip-updates.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-06497/trip-updates.pb",
+            "use-feed-proxy": true
         },
         {
             "name": "volan-bonyhad",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-06497/vehicle-positions.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-06497/vehicle-positions.pb",
+            "use-feed-proxy": true,
+            "skip": true,
+            "skip-reason": "We currently don't make use of vehicle positions feeds"
         },
         {
             "name": "volan-bonyhad",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-06497/alerts.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-06497/alerts.pb",
+            "use-feed-proxy": true
         },
         {
             "name": "volan-csongrad",
@@ -607,19 +692,24 @@
             "name": "volan-csongrad",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-05111/trip-updates.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-05111/trip-updates.pb",
+            "use-feed-proxy": true
         },
         {
             "name": "volan-csongrad",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-05111/vehicle-positions.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-05111/vehicle-positions.pb",
+            "use-feed-proxy": true,
+            "skip": true,
+            "skip-reason": "We currently don't make use of vehicle positions feeds"
         },
         {
             "name": "volan-csongrad",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-05111/alerts.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-05111/alerts.pb",
+            "use-feed-proxy": true
         },
         {
             "name": "volan-csurgo",
@@ -630,19 +720,24 @@
             "name": "volan-csurgo",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-21315/trip-updates.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-21315/trip-updates.pb",
+            "use-feed-proxy": true
         },
         {
             "name": "volan-csurgo",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-21315/vehicle-positions.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-21315/vehicle-positions.pb",
+            "use-feed-proxy": true,
+            "skip": true,
+            "skip-reason": "We currently don't make use of vehicle positions feeds"
         },
         {
             "name": "volan-csurgo",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-21315/alerts.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-21315/alerts.pb",
+            "use-feed-proxy": true
         },
         {
             "name": "volan-dunaujvaros",
@@ -653,19 +748,24 @@
             "name": "volan-dunaujvaros",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-03115/trip-updates.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-03115/trip-updates.pb",
+            "use-feed-proxy": true
         },
         {
             "name": "volan-dunaujvaros",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-03115/vehicle-positions.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-03115/vehicle-positions.pb",
+            "use-feed-proxy": true,
+            "skip": true,
+            "skip-reason": "We currently don't make use of vehicle positions feeds"
         },
         {
             "name": "volan-dunaujvaros",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-03115/alerts.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-03115/alerts.pb",
+            "use-feed-proxy": true
         },
         {
             "name": "volan-eger",
@@ -676,19 +776,24 @@
             "name": "volan-eger",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-20491/trip-updates.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-20491/trip-updates.pb",
+            "use-feed-proxy": true
         },
         {
             "name": "volan-eger",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-20491/vehicle-positions.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-20491/vehicle-positions.pb",
+            "use-feed-proxy": true,
+            "skip": true,
+            "skip-reason": "We currently don't make use of vehicle positions feeds"
         },
         {
             "name": "volan-eger",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-20491/alerts.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-20491/alerts.pb",
+            "use-feed-proxy": true
         },
         {
             "name": "volan-ercsi",
@@ -699,19 +804,24 @@
             "name": "volan-ercsi",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-23603/trip-updates.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-23603/trip-updates.pb",
+            "use-feed-proxy": true
         },
         {
             "name": "volan-ercsi",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-23603/vehicle-positions.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-23603/vehicle-positions.pb",
+            "use-feed-proxy": true,
+            "skip": true,
+            "skip-reason": "We currently don't make use of vehicle positions feeds"
         },
         {
             "name": "volan-ercsi",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-23603/alerts.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-23603/alerts.pb",
+            "use-feed-proxy": true
         },
         {
             "name": "volan-erd",
@@ -722,19 +832,24 @@
             "name": "volan-erd",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-30988/trip-updates.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-30988/trip-updates.pb",
+            "use-feed-proxy": true
         },
         {
             "name": "volan-erd",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-30988/vehicle-positions.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-30988/vehicle-positions.pb",
+            "use-feed-proxy": true,
+            "skip": true,
+            "skip-reason": "We currently don't make use of vehicle positions feeds"
         },
         {
             "name": "volan-erd",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-30988/alerts.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-30988/alerts.pb",
+            "use-feed-proxy": true
         },
         {
             "name": "volan-esztergom",
@@ -745,19 +860,24 @@
             "name": "volan-esztergom",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-25131/trip-updates.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-25131/trip-updates.pb",
+            "use-feed-proxy": true
         },
         {
             "name": "volan-esztergom",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-25131/vehicle-positions.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-25131/vehicle-positions.pb",
+            "use-feed-proxy": true,
+            "skip": true,
+            "skip-reason": "We currently don't make use of vehicle positions feeds"
         },
         {
             "name": "volan-esztergom",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-25131/alerts.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-25131/alerts.pb",
+            "use-feed-proxy": true
         },
         {
             "name": "volan-fonyod",
@@ -768,19 +888,24 @@
             "name": "volan-fonyod",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-14632/trip-updates.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-14632/trip-updates.pb",
+            "use-feed-proxy": true
         },
         {
             "name": "volan-fonyod",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-14632/vehicle-positions.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-14632/vehicle-positions.pb",
+            "use-feed-proxy": true,
+            "skip": true,
+            "skip-reason": "We currently don't make use of vehicle positions feeds"
         },
         {
             "name": "volan-fonyod",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-14632/alerts.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-14632/alerts.pb",
+            "use-feed-proxy": true
         },
         {
             "name": "volan-godollo",
@@ -791,19 +916,24 @@
             "name": "volan-godollo",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-32559/trip-updates.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-32559/trip-updates.pb",
+            "use-feed-proxy": true
         },
         {
             "name": "volan-godollo",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-32559/vehicle-positions.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-32559/vehicle-positions.pb",
+            "use-feed-proxy": true,
+            "skip": true,
+            "skip-reason": "We currently don't make use of vehicle positions feeds"
         },
         {
             "name": "volan-godollo",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-32559/alerts.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-32559/alerts.pb",
+            "use-feed-proxy": true
         },
         {
             "name": "volan-gyongyos",
@@ -814,19 +944,24 @@
             "name": "volan-gyongyos",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-05236/trip-updates.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-05236/trip-updates.pb",
+            "use-feed-proxy": true
         },
         {
             "name": "volan-gyongyos",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-05236/vehicle-positions.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-05236/vehicle-positions.pb",
+            "use-feed-proxy": true,
+            "skip": true,
+            "skip-reason": "We currently don't make use of vehicle positions feeds"
         },
         {
             "name": "volan-gyongyos",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-05236/alerts.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-05236/alerts.pb",
+            "use-feed-proxy": true
         },
         {
             "name": "volan-gyor",
@@ -837,19 +972,24 @@
             "name": "volan-gyor",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-25584/trip-updates.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-25584/trip-updates.pb",
+            "use-feed-proxy": true
         },
         {
             "name": "volan-gyor",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-25584/vehicle-positions.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-25584/vehicle-positions.pb",
+            "use-feed-proxy": true,
+            "skip": true,
+            "skip-reason": "We currently don't make use of vehicle positions feeds"
         },
         {
             "name": "volan-gyor",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-25584/alerts.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-25584/alerts.pb",
+            "use-feed-proxy": true
         },
         {
             "name": "volan-gyula",
@@ -860,19 +1000,24 @@
             "name": "volan-gyula",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-05032/trip-updates.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-05032/trip-updates.pb",
+            "use-feed-proxy": true
         },
         {
             "name": "volan-gyula",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-05032/vehicle-positions.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-05032/vehicle-positions.pb",
+            "use-feed-proxy": true,
+            "skip": true,
+            "skip-reason": "We currently don't make use of vehicle positions feeds"
         },
         {
             "name": "volan-gyula",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-05032/alerts.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-05032/alerts.pb",
+            "use-feed-proxy": true
         },
         {
             "name": "volan-hajduszoboszlo",
@@ -883,19 +1028,24 @@
             "name": "volan-hajduszoboszlo",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-05175/trip-updates.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-05175/trip-updates.pb",
+            "use-feed-proxy": true
         },
         {
             "name": "volan-hajduszoboszlo",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-05175/vehicle-positions.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-05175/vehicle-positions.pb",
+            "use-feed-proxy": true,
+            "skip": true,
+            "skip-reason": "We currently don't make use of vehicle positions feeds"
         },
         {
             "name": "volan-hajduszoboszlo",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-05175/alerts.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-05175/alerts.pb",
+            "use-feed-proxy": true
         },
         {
             "name": "volan-jaszbereny",
@@ -906,19 +1056,24 @@
             "name": "volan-jaszbereny",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-18209/trip-updates.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-18209/trip-updates.pb",
+            "use-feed-proxy": true
         },
         {
             "name": "volan-jaszbereny",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-18209/vehicle-positions.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-18209/vehicle-positions.pb",
+            "use-feed-proxy": true,
+            "skip": true,
+            "skip-reason": "We currently don't make use of vehicle positions feeds"
         },
         {
             "name": "volan-jaszbereny",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-18209/alerts.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-18209/alerts.pb",
+            "use-feed-proxy": true
         },
         {
             "name": "volan-karcag",
@@ -929,19 +1084,24 @@
             "name": "volan-karcag",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-04923/trip-updates.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-04923/trip-updates.pb",
+            "use-feed-proxy": true
         },
         {
             "name": "volan-karcag",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-04923/vehicle-positions.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-04923/vehicle-positions.pb",
+            "use-feed-proxy": true,
+            "skip": true,
+            "skip-reason": "We currently don't make use of vehicle positions feeds"
         },
         {
             "name": "volan-karcag",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-04923/alerts.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-04923/alerts.pb",
+            "use-feed-proxy": true
         },
         {
             "name": "volan-kazincbarcika",
@@ -952,19 +1112,24 @@
             "name": "volan-kazincbarcika",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-06691/trip-updates.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-06691/trip-updates.pb",
+            "use-feed-proxy": true
         },
         {
             "name": "volan-kazincbarcika",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-06691/vehicle-positions.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-06691/vehicle-positions.pb",
+            "use-feed-proxy": true,
+            "skip": true,
+            "skip-reason": "We currently don't make use of vehicle positions feeds"
         },
         {
             "name": "volan-kazincbarcika",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-06691/alerts.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-06691/alerts.pb",
+            "use-feed-proxy": true
         },
         {
             "name": "volan-keszthely",
@@ -975,19 +1140,24 @@
             "name": "volan-keszthely",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-18421/trip-updates.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-18421/trip-updates.pb",
+            "use-feed-proxy": true
         },
         {
             "name": "volan-keszthely",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-18421/vehicle-positions.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-18421/vehicle-positions.pb",
+            "use-feed-proxy": true,
+            "skip": true,
+            "skip-reason": "We currently don't make use of vehicle positions feeds"
         },
         {
             "name": "volan-keszthely",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-18421/alerts.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-18421/alerts.pb",
+            "use-feed-proxy": true
         },
         {
             "name": "volan-komarom",
@@ -998,19 +1168,24 @@
             "name": "volan-komarom",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-05449/trip-updates.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-05449/trip-updates.pb",
+            "use-feed-proxy": true
         },
         {
             "name": "volan-komarom",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-05449/vehicle-positions.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-05449/vehicle-positions.pb",
+            "use-feed-proxy": true,
+            "skip": true,
+            "skip-reason": "We currently don't make use of vehicle positions feeds"
         },
         {
             "name": "volan-komarom",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-05449/alerts.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-05449/alerts.pb",
+            "use-feed-proxy": true
         },
         {
             "name": "volan-komlo",
@@ -1021,19 +1196,24 @@
             "name": "volan-komlo",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-26408/trip-updates.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-26408/trip-updates.pb",
+            "use-feed-proxy": true
         },
         {
             "name": "volan-komlo",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-26408/vehicle-positions.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-26408/vehicle-positions.pb",
+            "use-feed-proxy": true,
+            "skip": true,
+            "skip-reason": "We currently don't make use of vehicle positions feeds"
         },
         {
             "name": "volan-komlo",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-26408/alerts.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-26408/alerts.pb",
+            "use-feed-proxy": true
         },
         {
             "name": "volan-kormend",
@@ -1044,19 +1224,24 @@
             "name": "volan-kormend",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-13532/trip-updates.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-13532/trip-updates.pb",
+            "use-feed-proxy": true
         },
         {
             "name": "volan-kormend",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-13532/vehicle-positions.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-13532/vehicle-positions.pb",
+            "use-feed-proxy": true,
+            "skip": true,
+            "skip-reason": "We currently don't make use of vehicle positions feeds"
         },
         {
             "name": "volan-kormend",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-13532/alerts.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-13532/alerts.pb",
+            "use-feed-proxy": true
         },
         {
             "name": "volan-lenti",
@@ -1067,19 +1252,24 @@
             "name": "volan-lenti",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-12575/trip-updates.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-12575/trip-updates.pb",
+            "use-feed-proxy": true
         },
         {
             "name": "volan-lenti",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-12575/vehicle-positions.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-12575/vehicle-positions.pb",
+            "use-feed-proxy": true,
+            "skip": true,
+            "skip-reason": "We currently don't make use of vehicle positions feeds"
         },
         {
             "name": "volan-lenti",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-12575/alerts.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-12575/alerts.pb",
+            "use-feed-proxy": true
         },
         {
             "name": "volan-mako",
@@ -1090,19 +1280,24 @@
             "name": "volan-mako",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-07357/trip-updates.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-07357/trip-updates.pb",
+            "use-feed-proxy": true
         },
         {
             "name": "volan-mako",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-07357/vehicle-positions.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-07357/vehicle-positions.pb",
+            "use-feed-proxy": true,
+            "skip": true,
+            "skip-reason": "We currently don't make use of vehicle positions feeds"
         },
         {
             "name": "volan-mako",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-07357/alerts.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-07357/alerts.pb",
+            "use-feed-proxy": true
         },
         {
             "name": "volan-mezokovesd",
@@ -1113,19 +1308,24 @@
             "name": "volan-mezokovesd",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-19433/trip-updates.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-19433/trip-updates.pb",
+            "use-feed-proxy": true
         },
         {
             "name": "volan-mezokovesd",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-19433/vehicle-positions.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-19433/vehicle-positions.pb",
+            "use-feed-proxy": true,
+            "skip": true,
+            "skip-reason": "We currently don't make use of vehicle positions feeds"
         },
         {
             "name": "volan-mezokovesd",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-19433/alerts.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-19433/alerts.pb",
+            "use-feed-proxy": true
         },
         {
             "name": "volan-mezotur",
@@ -1136,19 +1336,24 @@
             "name": "volan-mezotur",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-04260/trip-updates.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-04260/trip-updates.pb",
+            "use-feed-proxy": true
         },
         {
             "name": "volan-mezotur",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-04260/vehicle-positions.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-04260/vehicle-positions.pb",
+            "use-feed-proxy": true,
+            "skip": true,
+            "skip-reason": "We currently don't make use of vehicle positions feeds"
         },
         {
             "name": "volan-mezotur",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-04260/alerts.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-04260/alerts.pb",
+            "use-feed-proxy": true
         },
         {
             "name": "volan-mohacs",
@@ -1159,19 +1364,24 @@
             "name": "volan-mohacs",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-23959/trip-updates.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-23959/trip-updates.pb",
+            "use-feed-proxy": true
         },
         {
             "name": "volan-mohacs",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-23959/vehicle-positions.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-23959/vehicle-positions.pb",
+            "use-feed-proxy": true,
+            "skip": true,
+            "skip-reason": "We currently don't make use of vehicle positions feeds"
         },
         {
             "name": "volan-mohacs",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-23959/alerts.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-23959/alerts.pb",
+            "use-feed-proxy": true
         },
         {
             "name": "volan-morahalom",
@@ -1182,19 +1392,24 @@
             "name": "volan-morahalom",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-04349/trip-updates.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-04349/trip-updates.pb",
+            "use-feed-proxy": true
         },
         {
             "name": "volan-morahalom",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-04349/vehicle-positions.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-04349/vehicle-positions.pb",
+            "use-feed-proxy": true,
+            "skip": true,
+            "skip-reason": "We currently don't make use of vehicle positions feeds"
         },
         {
             "name": "volan-morahalom",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-04349/alerts.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-04349/alerts.pb",
+            "use-feed-proxy": true
         },
         {
             "name": "volan-mosonmagyarovar",
@@ -1205,19 +1420,24 @@
             "name": "volan-mosonmagyarovar",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-04783/trip-updates.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-04783/trip-updates.pb",
+            "use-feed-proxy": true
         },
         {
             "name": "volan-mosonmagyarovar",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-04783/vehicle-positions.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-04783/vehicle-positions.pb",
+            "use-feed-proxy": true,
+            "skip": true,
+            "skip-reason": "We currently don't make use of vehicle positions feeds"
         },
         {
             "name": "volan-mosonmagyarovar",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-04783/alerts.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-04783/alerts.pb",
+            "use-feed-proxy": true
         },
         {
             "name": "volan-nagyatad",
@@ -1228,19 +1448,24 @@
             "name": "volan-nagyatad",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-17941/trip-updates.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-17941/trip-updates.pb",
+            "use-feed-proxy": true
         },
         {
             "name": "volan-nagyatad",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-17941/vehicle-positions.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-17941/vehicle-positions.pb",
+            "use-feed-proxy": true,
+            "skip": true,
+            "skip-reason": "We currently don't make use of vehicle positions feeds"
         },
         {
             "name": "volan-nagyatad",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-17941/alerts.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-17941/alerts.pb",
+            "use-feed-proxy": true
         },
         {
             "name": "volan-nagykanizsa",
@@ -1251,19 +1476,24 @@
             "name": "volan-nagykanizsa",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-30933/trip-updates.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-30933/trip-updates.pb",
+            "use-feed-proxy": true
         },
         {
             "name": "volan-nagykanizsa",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-30933/vehicle-positions.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-30933/vehicle-positions.pb",
+            "use-feed-proxy": true,
+            "skip": true,
+            "skip-reason": "We currently don't make use of vehicle positions feeds"
         },
         {
             "name": "volan-nagykanizsa",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-30933/alerts.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-30933/alerts.pb",
+            "use-feed-proxy": true
         },
         {
             "name": "volan-nyiregyhaza",
@@ -1274,19 +1504,24 @@
             "name": "volan-nyiregyhaza",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-17206/trip-updates.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-17206/trip-updates.pb",
+            "use-feed-proxy": true
         },
         {
             "name": "volan-nyiregyhaza",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-17206/vehicle-positions.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-17206/vehicle-positions.pb",
+            "use-feed-proxy": true,
+            "skip": true,
+            "skip-reason": "We currently don't make use of vehicle positions feeds"
         },
         {
             "name": "volan-nyiregyhaza",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-17206/alerts.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-17206/alerts.pb",
+            "use-feed-proxy": true
         },
         {
             "name": "volan-oroszlany",
@@ -1297,19 +1532,24 @@
             "name": "volan-oroszlany",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-30766/trip-updates.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-30766/trip-updates.pb",
+            "use-feed-proxy": true
         },
         {
             "name": "volan-oroszlany",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-30766/vehicle-positions.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-30766/vehicle-positions.pb",
+            "use-feed-proxy": true,
+            "skip": true,
+            "skip-reason": "We currently don't make use of vehicle positions feeds"
         },
         {
             "name": "volan-oroszlany",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-30766/alerts.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-30766/alerts.pb",
+            "use-feed-proxy": true
         },
         {
             "name": "volan-ozd",
@@ -1320,19 +1560,24 @@
             "name": "volan-ozd",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-14492/trip-updates.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-14492/trip-updates.pb",
+            "use-feed-proxy": true
         },
         {
             "name": "volan-ozd",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-14492/vehicle-positions.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-14492/vehicle-positions.pb",
+            "use-feed-proxy": true,
+            "skip": true,
+            "skip-reason": "We currently don't make use of vehicle positions feeds"
         },
         {
             "name": "volan-ozd",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-14492/alerts.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-14492/alerts.pb",
+            "use-feed-proxy": true
         },
         {
             "name": "volan-papa",
@@ -1343,19 +1588,24 @@
             "name": "volan-papa",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-31945/trip-updates.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-31945/trip-updates.pb",
+            "use-feed-proxy": true
         },
         {
             "name": "volan-papa",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-31945/vehicle-positions.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-31945/vehicle-positions.pb",
+            "use-feed-proxy": true,
+            "skip": true,
+            "skip-reason": "We currently don't make use of vehicle positions feeds"
         },
         {
             "name": "volan-papa",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-31945/alerts.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-31945/alerts.pb",
+            "use-feed-proxy": true
         },
         {
             "name": "volan-salgotarjan",
@@ -1366,19 +1616,24 @@
             "name": "volan-salgotarjan",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-25788/trip-updates.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-25788/trip-updates.pb",
+            "use-feed-proxy": true
         },
         {
             "name": "volan-salgotarjan",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-25788/vehicle-positions.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-25788/vehicle-positions.pb",
+            "use-feed-proxy": true,
+            "skip": true,
+            "skip-reason": "We currently don't make use of vehicle positions feeds"
         },
         {
             "name": "volan-salgotarjan",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-25788/alerts.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-25788/alerts.pb",
+            "use-feed-proxy": true
         },
         {
             "name": "volan-siklos",
@@ -1389,19 +1644,24 @@
             "name": "volan-siklos",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-05519/trip-updates.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-05519/trip-updates.pb",
+            "use-feed-proxy": true
         },
         {
             "name": "volan-siklos",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-05519/vehicle-positions.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-05519/vehicle-positions.pb",
+            "use-feed-proxy": true,
+            "skip": true,
+            "skip-reason": "We currently don't make use of vehicle positions feeds"
         },
         {
             "name": "volan-siklos",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-05519/alerts.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-05519/alerts.pb",
+            "use-feed-proxy": true
         },
         {
             "name": "volan-siofok",
@@ -1412,19 +1672,24 @@
             "name": "volan-siofok",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-17631/trip-updates.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-17631/trip-updates.pb",
+            "use-feed-proxy": true
         },
         {
             "name": "volan-siofok",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-17631/vehicle-positions.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-17631/vehicle-positions.pb",
+            "use-feed-proxy": true,
+            "skip": true,
+            "skip-reason": "We currently don't make use of vehicle positions feeds"
         },
         {
             "name": "volan-siofok",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-17631/alerts.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-17631/alerts.pb",
+            "use-feed-proxy": true
         },
         {
             "name": "volan-sopron",
@@ -1435,19 +1700,24 @@
             "name": "volan-sopron",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-08518/trip-updates.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-08518/trip-updates.pb",
+            "use-feed-proxy": true
         },
         {
             "name": "volan-sopron",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-08518/vehicle-positions.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-08518/vehicle-positions.pb",
+            "use-feed-proxy": true,
+            "skip": true,
+            "skip-reason": "We currently don't make use of vehicle positions feeds"
         },
         {
             "name": "volan-sopron",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-08518/alerts.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-08518/alerts.pb",
+            "use-feed-proxy": true
         },
         {
             "name": "volan-szeged",
@@ -1458,19 +1728,24 @@
             "name": "volan-szeged",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-33367/trip-updates.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-33367/trip-updates.pb",
+            "use-feed-proxy": true
         },
         {
             "name": "volan-szeged",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-33367/vehicle-positions.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-33367/vehicle-positions.pb",
+            "use-feed-proxy": true,
+            "skip": true,
+            "skip-reason": "We currently don't make use of vehicle positions feeds"
         },
         {
             "name": "volan-szeged",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-33367/alerts.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-33367/alerts.pb",
+            "use-feed-proxy": true
         },
         {
             "name": "volan-szekesfehervar",
@@ -1481,19 +1756,24 @@
             "name": "volan-szekesfehervar",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-14827/trip-updates.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-14827/trip-updates.pb",
+            "use-feed-proxy": true
         },
         {
             "name": "volan-szekesfehervar",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-14827/vehicle-positions.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-14827/vehicle-positions.pb",
+            "use-feed-proxy": true,
+            "skip": true,
+            "skip-reason": "We currently don't make use of vehicle positions feeds"
         },
         {
             "name": "volan-szekesfehervar",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-14827/alerts.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-14827/alerts.pb",
+            "use-feed-proxy": true
         },
         {
             "name": "volan-szekszard",
@@ -1504,19 +1784,24 @@
             "name": "volan-szekszard",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-22761/trip-updates.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-22761/trip-updates.pb",
+            "use-feed-proxy": true
         },
         {
             "name": "volan-szekszard",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-22761/vehicle-positions.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-22761/vehicle-positions.pb",
+            "use-feed-proxy": true,
+            "skip": true,
+            "skip-reason": "We currently don't make use of vehicle positions feeds"
         },
         {
             "name": "volan-szekszard",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-22761/alerts.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-22761/alerts.pb",
+            "use-feed-proxy": true
         },
         {
             "name": "volan-szentes",
@@ -1527,19 +1812,24 @@
             "name": "volan-szentes",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-14456/trip-updates.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-14456/trip-updates.pb",
+            "use-feed-proxy": true
         },
         {
             "name": "volan-szentes",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-14456/vehicle-positions.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-14456/vehicle-positions.pb",
+            "use-feed-proxy": true,
+            "skip": true,
+            "skip-reason": "We currently don't make use of vehicle positions feeds"
         },
         {
             "name": "volan-szentes",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-14456/alerts.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-14456/alerts.pb",
+            "use-feed-proxy": true
         },
         {
             "name": "volan-szigetvar",
@@ -1550,19 +1840,24 @@
             "name": "volan-szigetvar",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-26578/trip-updates.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-26578/trip-updates.pb",
+            "use-feed-proxy": true
         },
         {
             "name": "volan-szigetvar",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-26578/vehicle-positions.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-26578/vehicle-positions.pb",
+            "use-feed-proxy": true,
+            "skip": true,
+            "skip-reason": "We currently don't make use of vehicle positions feeds"
         },
         {
             "name": "volan-szigetvar",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-26578/alerts.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-26578/alerts.pb",
+            "use-feed-proxy": true
         },
         {
             "name": "volan-szolnok",
@@ -1573,19 +1868,24 @@
             "name": "volan-szolnok",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-27854/trip-updates.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-27854/trip-updates.pb",
+            "use-feed-proxy": true
         },
         {
             "name": "volan-szolnok",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-27854/vehicle-positions.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-27854/vehicle-positions.pb",
+            "use-feed-proxy": true,
+            "skip": true,
+            "skip-reason": "We currently don't make use of vehicle positions feeds"
         },
         {
             "name": "volan-szolnok",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-27854/alerts.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-27854/alerts.pb",
+            "use-feed-proxy": true
         },
         {
             "name": "volan-tata",
@@ -1596,19 +1896,24 @@
             "name": "volan-tata",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-20127/trip-updates.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-20127/trip-updates.pb",
+            "use-feed-proxy": true
         },
         {
             "name": "volan-tata",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-20127/vehicle-positions.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-20127/vehicle-positions.pb",
+            "use-feed-proxy": true,
+            "skip": true,
+            "skip-reason": "We currently don't make use of vehicle positions feeds"
         },
         {
             "name": "volan-tata",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-20127/alerts.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-20127/alerts.pb",
+            "use-feed-proxy": true
         },
         {
             "name": "volan-tiszafured",
@@ -1619,19 +1924,24 @@
             "name": "volan-tiszafured",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-29726/trip-updates.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-29726/trip-updates.pb",
+            "use-feed-proxy": true
         },
         {
             "name": "volan-tiszafured",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-29726/vehicle-positions.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-29726/vehicle-positions.pb",
+            "use-feed-proxy": true,
+            "skip": true,
+            "skip-reason": "We currently don't make use of vehicle positions feeds"
         },
         {
             "name": "volan-tiszafured",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-29726/alerts.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-29726/alerts.pb",
+            "use-feed-proxy": true
         },
         {
             "name": "volan-tiszaujvaros",
@@ -1642,19 +1952,24 @@
             "name": "volan-tiszaujvaros",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-28352/trip-updates.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-28352/trip-updates.pb",
+            "use-feed-proxy": true
         },
         {
             "name": "volan-tiszaujvaros",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-28352/vehicle-positions.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-28352/vehicle-positions.pb",
+            "use-feed-proxy": true,
+            "skip": true,
+            "skip-reason": "We currently don't make use of vehicle positions feeds"
         },
         {
             "name": "volan-tiszaujvaros",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-28352/alerts.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-28352/alerts.pb",
+            "use-feed-proxy": true
         },
         {
             "name": "volan-ujszasz",
@@ -1665,19 +1980,24 @@
             "name": "volan-ujszasz",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-15291/trip-updates.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-15291/trip-updates.pb",
+            "use-feed-proxy": true
         },
         {
             "name": "volan-ujszasz",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-15291/vehicle-positions.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-15291/vehicle-positions.pb",
+            "use-feed-proxy": true,
+            "skip": true,
+            "skip-reason": "We currently don't make use of vehicle positions feeds"
         },
         {
             "name": "volan-ujszasz",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-15291/alerts.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-15291/alerts.pb",
+            "use-feed-proxy": true
         },
         {
             "name": "volan-vac",
@@ -1688,19 +2008,24 @@
             "name": "volan-vac",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-24934/trip-updates.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-24934/trip-updates.pb",
+            "use-feed-proxy": true
         },
         {
             "name": "volan-vac",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-24934/vehicle-positions.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-24934/vehicle-positions.pb",
+            "use-feed-proxy": true,
+            "skip": true,
+            "skip-reason": "We currently don't make use of vehicle positions feeds"
         },
         {
             "name": "volan-vac",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-24934/alerts.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-24934/alerts.pb",
+            "use-feed-proxy": true
         },
         {
             "name": "volan-zalaegerszeg",
@@ -1711,19 +2036,24 @@
             "name": "volan-zalaegerszeg",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-32054/trip-updates.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-32054/trip-updates.pb",
+            "use-feed-proxy": true
         },
         {
             "name": "volan-zalaegerszeg",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-32054/vehicle-positions.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-32054/vehicle-positions.pb",
+            "use-feed-proxy": true,
+            "skip": true,
+            "skip-reason": "We currently don't make use of vehicle positions feeds"
         },
         {
             "name": "volan-zalaegerszeg",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-32054/alerts.pb"
+            "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-32054/alerts.pb",
+            "use-feed-proxy": true
         }
     ]
 }
