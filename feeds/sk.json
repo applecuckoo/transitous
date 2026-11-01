@@ -36,19 +36,22 @@
             "name": "zsr",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/zsr/TripUpdates"
+            "url": "https://jbb.ghsq.de/gtfs/zsr/TripUpdates",
+            "use-feed-proxy": true
         },
         {
             "name": "zsr",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/zsr/Alerts"
+            "url": "https://jbb.ghsq.de/gtfs/zsr/Alerts",
+            "use-feed-proxy": true
         },
         {
             "name": "zsr",
             "type": "url",
             "spec": "gtfs-rt",
-            "url": "https://jbb.ghsq.de/gtfs/zsr/VehiclePositions"
+            "url": "https://jbb.ghsq.de/gtfs/zsr/VehiclePositions",
+            "use-feed-proxy": true
         },
         {
             "name": "Bratislava",
